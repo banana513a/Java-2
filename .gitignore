@@ -1,0 +1,8 @@
+/Project/ProjectBlackyBear/*.iml
+*.iml
+/Project/ProjectBlackyBear/web/target
+/Project/ProjectBlackyBear/test/*.iml
+/Project/ProjectBlackyBear/test/target
+/Project/ProjectBlackyBear/common/common.iml
+/Project/ProjectBlackyBear/common/target
+/Project/ProjectBlackyBear/.idea

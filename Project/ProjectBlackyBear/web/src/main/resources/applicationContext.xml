@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx ="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="
+		http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop-4.2.xsd
+        http://www.springframework.org/schema/beans
+    	http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
+    	http://www.springframework.org/schema/context
+    	http://www.springframework.org/schema/context/spring-context-4.2.xsd
+    	http://www.springframework.org/schema/tx
+    	http://www.springframework.org/schema/tx/spring-tx-4.2.xsd ">
+
+    <!-- *************************** 加载 Dao && Service *************************** -->
+    <context:component-scan base-package="com.blackybear.dao" />
+    <context:component-scan base-package="com.blackybear.service"/>
+
+    <!-- *************************** AOP 配置  *************************** -->
+    <aop:aspectj-autoproxy proxy-target-class="true" />
+
+    <!-- *************************** 加载资源 && 配置文件 *************************** -->
+    <!-- 加载 properties 配置文件 -->
+    <!--<context:property-placeholder location="/WEB-INF/classes/resources/db.properties"/>-->
+
+    <!-- *************************** Database 配置  *************************** -->
+    <!-- JDBC DataSource 配置 -->
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value = "${db.mysql.driverClassName}"/>
+        <property name="url" value = "${db.mysql.url}"/>
+        <property name="username" value = "${db.mysql.username}"/>
+        <property name="password" value = "${db.mysql.password}"/>
+    </bean>
+
+    <!-- C3P0 DataSource 配置 -->
+    <bean id="dataSource_c3p0" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="driverClass" value = "${db.mysql.driverClassName}"/>
+        <property name="jdbcUrl" value = "${db.mysql.url}"/>
+        <property name="user" value = "${db.mysql.username}"/>
+        <property name="password" value = "${db.mysql.password}"/>
+        <property name="maxStatements" value="${db.hibernate.c3p0.max_statements}"/>
+    </bean>
+    <!-- LobHandler配置 -->
+    <bean id = "mLobHandler" class="org.springframework.jdbc.support.lob.DefaultLobHandler" lazy-init="true" />
+
+    <!-- Hibernate framework配置-->
+    <bean id = "sessionFactory" class ="org.springframework.orm.hibernate5.LocalSessionFactoryBean" >
+        <property name="dataSource"  ref = "dataSource"/>
+        <property name="hibernateProperties" >
+            <props>
+                <prop key="hibernate.show_sql">true</prop>
+                <prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
+                <prop key="hibernate.cache.use_second_level_cache">false</prop>
+                <prop key="hibernate.cache.region.factory_class">org.hibernate.cache.ehcache.EhCacheRegionFactory</prop>
+                <prop key="hibernate.connection.url">jdbc:mysql://localhost:3306/db_blackybear</prop>
+                <prop key="hibernate.connection.driver_class">com.mysql.jdbc.Driver</prop>
+            </props>
+        </property>
+        <property name="packagesToScan" value="com.blackybear.domain" />
+    </bean>
+    <!-- Hibernate transaction manager 配置 -->
+    <bean id = "mHibernateTransactionManager" class = "org.springframework.orm.hibernate5.HibernateTransactionManager" >
+        <property name="sessionFactory" ref = "sessionFactory" />
+    </bean>
+    <!-- 使用 Transaction manager 加载事务 -->
+    <tx:annotation-driven transaction-manager="mHibernateTransactionManager"/>
+
+    <!-- *************************** EhCache 配置  *************************** -->
+    <!--<bean id="ehCacheManager" class="org.springframework.cache.ehcache.EhCacheManagerFactoryBean">-->
+        <!--<property name="configLocation" value="WEB-INF/classes/resources/ehcache.xml"/>-->
+        <!--<property name="shared" value="false"/>-->
+    <!--</bean>-->
+    <!--<bean id="cacheManager" class="org.springframework.cache.ehcache.EhCacheCacheManager">-->
+        <!--<property name="cacheManager"  ref="ehCacheManager"/>-->
+    <!--</bean>-->
+</beans>
