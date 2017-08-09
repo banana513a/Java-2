@@ -1,4 +1,4 @@
-package com.blackybear.designpattern.creational;
+package com.blackybear.designpattern.creational.Prototype;
 
 /**
  * Description:
@@ -6,6 +6,6 @@ package com.blackybear.designpattern.creational;
  * CopyRight: Dell_Blacky8
  * Create Date: 2017-08-01
  */
-public class Builder {
+public class PrototypePattern {
 
 }
