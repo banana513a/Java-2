@@ -1,4 +1,4 @@
-package com.blackybear.designpattern.behavioral;
+package com.blackybear.designpattern.structural.Composite;
 
 /**
  * Description:
@@ -6,6 +6,6 @@ package com.blackybear.designpattern.behavioral;
  * CopyRight: Dell_Blacky8
  * Create Date: 2017-08-01
  */
-public class Interpreter {
+public class CompositePattern {
 
 }

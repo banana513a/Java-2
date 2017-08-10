@@ -1,4 +1,4 @@
-package com.blackybear.designpattern.structural;
+package com.blackybear.designpattern.structural.Flyweight;
 
 /**
  * Description:
@@ -6,6 +6,6 @@ package com.blackybear.designpattern.structural;
  * CopyRight: Dell_Blacky8
  * Create Date: 2017-08-01
  */
-public class Decorator {
+public class FlyweightPattern {
 
 }
