@@ -1,0 +1,1406 @@
+31-Oct-2017 22:45:35.100 严重 [main] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:45:35.131 严重 [main] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:45:35.131 严重 [main] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:45:35.147 严重 [main] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:45:35.194 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/@VERSION@
+31-Oct-2017 22:45:35.194 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          @VERSION_BUILT@
+31-Oct-2017 22:45:35.194 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         @VERSION_NUMBER@
+31-Oct-2017 22:45:35.194 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+31-Oct-2017 22:45:35.194 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+31-Oct-2017 22:45:35.194 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+31-Oct-2017 22:45:35.194 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\Java\jdk1.8.0_92\jre
+31-Oct-2017 22:45:35.194 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_92-b14
+31-Oct-2017 22:45:35.194 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-Oct-2017 22:45:35.194 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home
+31-Oct-2017 22:45:35.194 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home
+31-Oct-2017 22:45:35.194 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=catalina-home
+31-Oct-2017 22:45:35.194 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=catalina-home
+31-Oct-2017 22:45:35.194 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=catalina-home/endorsed
+31-Oct-2017 22:45:35.194 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=catalina-home/temp
+31-Oct-2017 22:45:35.194 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Oct-2017 22:45:35.194 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=catalina-home/conf/logging.properties
+31-Oct-2017 22:45:35.194 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:D:\IntelliJ_IDEA\lib\idea_rt.jar=2483:D:\IntelliJ_IDEA\bin
+31-Oct-2017 22:45:35.194 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+31-Oct-2017 22:45:35.194 严重 [main] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:45:35.414 严重 [main] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:45:35.414 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+31-Oct-2017 22:45:35.649 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Oct-2017 22:45:35.649 严重 [main] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:45:35.649 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+31-Oct-2017 22:45:35.649 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Oct-2017 22:45:35.649 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1210 ms
+31-Oct-2017 22:45:35.695 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+31-Oct-2017 22:45:35.695 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/@VERSION@
+31-Oct-2017 22:45:35.728 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\docs]
+31-Oct-2017 22:45:42.414 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Oct-2017 22:45:42.885 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [440] milliseconds.
+31-Oct-2017 22:45:42.900 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\docs] has finished in [7,172] ms
+31-Oct-2017 22:45:42.900 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\examples]
+31-Oct-2017 22:45:47.945 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Oct-2017 22:45:47.994 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\examples] has finished in [5,094] ms
+31-Oct-2017 22:45:47.994 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\host-manager]
+31-Oct-2017 22:45:48.056 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\host-manager] has finished in [62] ms
+31-Oct-2017 22:45:48.056 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\manager]
+31-Oct-2017 22:45:48.134 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\manager] has finished in [78] ms
+31-Oct-2017 22:45:48.134 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\ROOT]
+31-Oct-2017 22:45:51.367 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Oct-2017 22:45:51.367 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\ROOT] has finished in [3,233] ms
+31-Oct-2017 22:45:51.398 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+31-Oct-2017 22:45:51.414 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+31-Oct-2017 22:45:51.414 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 15762 ms
+31-Oct-2017 22:46:08.393 严重 [http-nio-8080-exec-1] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:46:09.552 严重 [http-nio-8080-exec-3] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:47:04.352 严重 [main] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:47:04.414 严重 [main] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:47:04.414 严重 [main] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:47:04.430 严重 [main] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:47:04.485 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/@VERSION@
+31-Oct-2017 22:47:04.485 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          @VERSION_BUILT@
+31-Oct-2017 22:47:04.485 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         @VERSION_NUMBER@
+31-Oct-2017 22:47:04.485 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+31-Oct-2017 22:47:04.485 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+31-Oct-2017 22:47:04.485 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+31-Oct-2017 22:47:04.485 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\Java\jdk1.8.0_92\jre
+31-Oct-2017 22:47:04.485 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_92-b14
+31-Oct-2017 22:47:04.485 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-Oct-2017 22:47:04.485 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home
+31-Oct-2017 22:47:04.485 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home
+31-Oct-2017 22:47:04.485 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:8276,suspend=y,server=n
+31-Oct-2017 22:47:04.485 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=catalina-home
+31-Oct-2017 22:47:04.485 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=catalina-home
+31-Oct-2017 22:47:04.485 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=catalina-home/endorsed
+31-Oct-2017 22:47:04.485 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=catalina-home/temp
+31-Oct-2017 22:47:04.485 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Oct-2017 22:47:04.485 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=catalina-home/conf/logging.properties
+31-Oct-2017 22:47:04.485 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+31-Oct-2017 22:47:04.485 严重 [main] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:47:04.720 严重 [main] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:47:04.720 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+31-Oct-2017 22:47:04.876 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Oct-2017 22:47:04.876 严重 [main] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:47:04.876 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+31-Oct-2017 22:47:04.876 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Oct-2017 22:47:04.876 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1131 ms
+31-Oct-2017 22:47:04.938 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+31-Oct-2017 22:47:04.938 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/@VERSION@
+31-Oct-2017 22:47:04.954 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\docs]
+31-Oct-2017 22:47:11.755 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Oct-2017 22:47:12.367 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [518] milliseconds.
+31-Oct-2017 22:47:12.383 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\docs] has finished in [7,429] ms
+31-Oct-2017 22:47:12.383 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\examples]
+31-Oct-2017 22:47:17.450 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Oct-2017 22:47:17.576 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\examples] has finished in [5,193] ms
+31-Oct-2017 22:47:17.577 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\host-manager]
+31-Oct-2017 22:47:17.645 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\host-manager] has finished in [69] ms
+31-Oct-2017 22:47:17.645 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\manager]
+31-Oct-2017 22:47:17.738 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\manager] has finished in [92] ms
+31-Oct-2017 22:47:17.738 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\ROOT]
+31-Oct-2017 22:47:21.365 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Oct-2017 22:47:21.365 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\ROOT] has finished in [3,627] ms
+31-Oct-2017 22:47:21.365 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+31-Oct-2017 22:47:21.396 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+31-Oct-2017 22:47:21.396 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 16520 ms
+31-Oct-2017 22:53:29.304 严重 [main] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:53:29.366 严重 [main] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:53:29.382 严重 [main] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:53:29.382 严重 [main] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:53:29.444 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat 8.5.x-dev
+31-Oct-2017 22:53:29.444 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          unknown
+31-Oct-2017 22:53:29.444 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.x
+31-Oct-2017 22:53:29.444 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+31-Oct-2017 22:53:29.444 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+31-Oct-2017 22:53:29.444 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+31-Oct-2017 22:53:29.444 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\Java\jdk1.8.0_92\jre
+31-Oct-2017 22:53:29.444 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_92-b14
+31-Oct-2017 22:53:29.444 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-Oct-2017 22:53:29.444 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home
+31-Oct-2017 22:53:29.444 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home
+31-Oct-2017 22:53:29.444 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:8327,suspend=y,server=n
+31-Oct-2017 22:53:29.444 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=catalina-home
+31-Oct-2017 22:53:29.444 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=catalina-home
+31-Oct-2017 22:53:29.444 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=catalina-home/endorsed
+31-Oct-2017 22:53:29.444 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=catalina-home/temp
+31-Oct-2017 22:53:29.444 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Oct-2017 22:53:29.444 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=catalina-home/conf/logging.properties
+31-Oct-2017 22:53:29.444 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+31-Oct-2017 22:53:29.444 严重 [main] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:53:29.601 警告 [main] org.apache.catalina.deploy.NamingResourcesImpl.initInternal Failed to create MBean for naming resource [UserDatabase]
+ javax.management.MBeanException
+	at org.apache.catalina.mbeans.MBeanUtils.createMBean(MBeanUtils.java:153)
+	at org.apache.catalina.deploy.NamingResourcesImpl.initInternal(NamingResourcesImpl.java:940)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:843)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:621)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:311)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:494)
+Caused by: java.lang.Exception: ManagedBean is not found with ContextResource
+	at org.apache.catalina.mbeans.MBeanUtils.createMBean(MBeanUtils.java:152)
+	... 11 more
+
+31-Oct-2017 22:53:29.679 严重 [main] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:53:29.679 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+31-Oct-2017 22:53:29.822 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Oct-2017 22:53:29.822 严重 [main] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:53:29.822 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+31-Oct-2017 22:53:29.822 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Oct-2017 22:53:29.822 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 863 ms
+31-Oct-2017 22:53:29.869 严重 [main] org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans Exception creating UserDatabase MBeans for UserDatabase
+ java.lang.IllegalArgumentException: Cannot create UserDatabase MBean for resource UserDatabase
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:183)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:148)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:110)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:82)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:395)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:339)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:786)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:670)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:355)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:495)
+Caused by: javax.management.MBeanException
+	at org.apache.catalina.mbeans.MBeanUtils.createMBean(MBeanUtils.java:308)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:181)
+	... 15 more
+Caused by: java.lang.Exception: ManagedBean is not found with MemoryUserDatabase
+	at org.apache.catalina.mbeans.MBeanUtils.createMBean(MBeanUtils.java:307)
+	... 16 more
+
+31-Oct-2017 22:53:29.869 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+31-Oct-2017 22:53:29.869 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat 8.5.x-dev
+31-Oct-2017 22:53:29.900 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\docs]
+31-Oct-2017 22:53:30.026 严重 [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/docs]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:752)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1144)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1878)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: java.lang.NullPointerException
+	at org.apache.catalina.util.CharsetMapper.<init>(CharsetMapper.java:76)
+	at org.apache.catalina.util.CharsetMapper.<init>(CharsetMapper.java:59)
+	at org.apache.catalina.core.StandardContext.getCharsetMapper(StandardContext.java:1360)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5010)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+
+31-Oct-2017 22:53:30.026 严重 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Error deploying web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\docs]
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/docs]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:756)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1144)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1878)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Oct-2017 22:53:30.026 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\docs] has finished in [126] ms
+31-Oct-2017 22:53:30.026 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\examples]
+31-Oct-2017 22:53:30.041 严重 [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/examples]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:752)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1144)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1878)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: java.lang.NullPointerException
+	at org.apache.catalina.util.CharsetMapper.<init>(CharsetMapper.java:76)
+	at org.apache.catalina.util.CharsetMapper.<init>(CharsetMapper.java:59)
+	at org.apache.catalina.core.StandardContext.getCharsetMapper(StandardContext.java:1360)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5010)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+
+31-Oct-2017 22:53:30.041 严重 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Error deploying web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\examples]
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/examples]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:756)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1144)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1878)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Oct-2017 22:53:30.041 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\examples] has finished in [15] ms
+31-Oct-2017 22:53:30.041 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\host-manager]
+31-Oct-2017 22:53:30.073 严重 [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/host-manager]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:752)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1144)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1878)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: java.lang.NullPointerException
+	at org.apache.catalina.util.CharsetMapper.<init>(CharsetMapper.java:76)
+	at org.apache.catalina.util.CharsetMapper.<init>(CharsetMapper.java:59)
+	at org.apache.catalina.core.StandardContext.getCharsetMapper(StandardContext.java:1360)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5010)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+
+31-Oct-2017 22:53:30.073 严重 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Error deploying web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\host-manager]
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/host-manager]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:756)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1144)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1878)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Oct-2017 22:53:30.073 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\host-manager] has finished in [32] ms
+31-Oct-2017 22:53:30.073 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\manager]
+31-Oct-2017 22:53:30.088 严重 [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/manager]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:752)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1144)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1878)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: java.lang.NullPointerException
+	at org.apache.catalina.util.CharsetMapper.<init>(CharsetMapper.java:76)
+	at org.apache.catalina.util.CharsetMapper.<init>(CharsetMapper.java:59)
+	at org.apache.catalina.core.StandardContext.getCharsetMapper(StandardContext.java:1360)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5010)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+
+31-Oct-2017 22:53:30.088 严重 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Error deploying web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\manager]
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/manager]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:756)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1144)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1878)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Oct-2017 22:53:30.088 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\manager] has finished in [15] ms
+31-Oct-2017 22:53:30.088 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\ROOT]
+31-Oct-2017 22:53:30.088 严重 [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:752)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1144)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1878)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: java.lang.NullPointerException
+	at org.apache.catalina.util.CharsetMapper.<init>(CharsetMapper.java:76)
+	at org.apache.catalina.util.CharsetMapper.<init>(CharsetMapper.java:59)
+	at org.apache.catalina.core.StandardContext.getCharsetMapper(StandardContext.java:1360)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5010)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+
+31-Oct-2017 22:53:30.104 严重 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Error deploying web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\ROOT]
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:756)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1144)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1878)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Oct-2017 22:53:30.104 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\ROOT] has finished in [16] ms
+31-Oct-2017 22:53:30.104 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+31-Oct-2017 22:53:30.135 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+31-Oct-2017 22:53:30.151 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 318 ms
+31-Oct-2017 22:53:48.402 严重 [http-nio-8080-exec-1] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:53:48.402 严重 [http-nio-8080-exec-1] org.apache.coyote.http11.Http11Processor.service Error processing request
+ java.lang.ExceptionInInitializerError
+	at org.apache.catalina.connector.Response.setConnector(Response.java:115)
+	at org.apache.catalina.connector.Connector.createResponse(Connector.java:905)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:309)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.util.MissingResourceException: Can't find bundle for base name javax.servlet.LocalStrings, locale zh_CN
+	at java.util.ResourceBundle.throwMissingResourceException(ResourceBundle.java:1564)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1387)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:773)
+	at javax.servlet.ServletOutputStream.<clinit>(ServletOutputStream.java:39)
+	... 12 more
+
+31-Oct-2017 22:53:48.402 严重 [http-nio-8080-exec-1] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:53:48.402 严重 [http-nio-8080-exec-1] org.apache.coyote.AbstractProtocol$ConnectionHandler.process Error reading request, ignored
+ java.lang.NoClassDefFoundError: Could not initialize class org.apache.catalina.connector.CoyoteOutputStream
+	at org.apache.catalina.connector.Response.setConnector(Response.java:115)
+	at org.apache.catalina.connector.Connector.createResponse(Connector.java:905)
+	at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:438)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:833)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Oct-2017 22:53:48.402 严重 [http-nio-8080-exec-2] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:53:48.418 严重 [http-nio-8080-exec-2] org.apache.coyote.http11.Http11Processor.service Error processing request
+ java.lang.NoClassDefFoundError: Could not initialize class org.apache.catalina.connector.CoyoteOutputStream
+	at org.apache.catalina.connector.Response.setConnector(Response.java:115)
+	at org.apache.catalina.connector.Connector.createResponse(Connector.java:905)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:309)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Oct-2017 22:53:48.418 严重 [http-nio-8080-exec-2] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:53:48.418 严重 [http-nio-8080-exec-2] org.apache.coyote.AbstractProtocol$ConnectionHandler.process Error reading request, ignored
+ java.lang.NoClassDefFoundError: Could not initialize class org.apache.catalina.connector.CoyoteOutputStream
+	at org.apache.catalina.connector.Response.setConnector(Response.java:115)
+	at org.apache.catalina.connector.Connector.createResponse(Connector.java:905)
+	at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:438)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:833)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Oct-2017 22:53:48.418 严重 [http-nio-8080-exec-3] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:53:48.418 严重 [http-nio-8080-exec-3] org.apache.coyote.http11.Http11Processor.service Error processing request
+ java.lang.NoClassDefFoundError: Could not initialize class org.apache.catalina.connector.CoyoteOutputStream
+	at org.apache.catalina.connector.Response.setConnector(Response.java:115)
+	at org.apache.catalina.connector.Connector.createResponse(Connector.java:905)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:309)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Oct-2017 22:53:48.418 严重 [http-nio-8080-exec-3] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:53:48.418 严重 [http-nio-8080-exec-3] org.apache.coyote.AbstractProtocol$ConnectionHandler.process Error reading request, ignored
+ java.lang.NoClassDefFoundError: Could not initialize class org.apache.catalina.connector.CoyoteOutputStream
+	at org.apache.catalina.connector.Response.setConnector(Response.java:115)
+	at org.apache.catalina.connector.Connector.createResponse(Connector.java:905)
+	at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:438)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:833)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Oct-2017 22:53:48.418 严重 [http-nio-8080-exec-4] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:53:48.418 严重 [http-nio-8080-exec-4] org.apache.coyote.http11.Http11Processor.service Error processing request
+ java.lang.NoClassDefFoundError: Could not initialize class org.apache.catalina.connector.CoyoteOutputStream
+	at org.apache.catalina.connector.Response.setConnector(Response.java:115)
+	at org.apache.catalina.connector.Connector.createResponse(Connector.java:905)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:309)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Oct-2017 22:53:48.433 严重 [http-nio-8080-exec-4] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:53:48.434 严重 [http-nio-8080-exec-4] org.apache.coyote.AbstractProtocol$ConnectionHandler.process Error reading request, ignored
+ java.lang.NoClassDefFoundError: Could not initialize class org.apache.catalina.connector.CoyoteOutputStream
+	at org.apache.catalina.connector.Response.setConnector(Response.java:115)
+	at org.apache.catalina.connector.Connector.createResponse(Connector.java:905)
+	at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:438)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:833)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Oct-2017 22:53:48.435 严重 [http-nio-8080-exec-5] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:53:48.437 严重 [http-nio-8080-exec-5] org.apache.coyote.http11.Http11Processor.service Error processing request
+ java.lang.NoClassDefFoundError: Could not initialize class org.apache.catalina.connector.CoyoteOutputStream
+	at org.apache.catalina.connector.Response.setConnector(Response.java:115)
+	at org.apache.catalina.connector.Connector.createResponse(Connector.java:905)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:309)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Oct-2017 22:53:48.437 严重 [http-nio-8080-exec-5] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:53:48.437 严重 [http-nio-8080-exec-5] org.apache.coyote.AbstractProtocol$ConnectionHandler.process Error reading request, ignored
+ java.lang.NoClassDefFoundError: Could not initialize class org.apache.catalina.connector.CoyoteOutputStream
+	at org.apache.catalina.connector.Response.setConnector(Response.java:115)
+	at org.apache.catalina.connector.Connector.createResponse(Connector.java:905)
+	at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:438)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:833)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Oct-2017 22:53:48.439 严重 [http-nio-8080-exec-6] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:53:48.439 严重 [http-nio-8080-exec-6] org.apache.coyote.http11.Http11Processor.service Error processing request
+ java.lang.NoClassDefFoundError: Could not initialize class org.apache.catalina.connector.CoyoteOutputStream
+	at org.apache.catalina.connector.Response.setConnector(Response.java:115)
+	at org.apache.catalina.connector.Connector.createResponse(Connector.java:905)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:309)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Oct-2017 22:53:48.442 严重 [http-nio-8080-exec-6] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:53:48.442 严重 [http-nio-8080-exec-6] org.apache.coyote.AbstractProtocol$ConnectionHandler.process Error reading request, ignored
+ java.lang.NoClassDefFoundError: Could not initialize class org.apache.catalina.connector.CoyoteOutputStream
+	at org.apache.catalina.connector.Response.setConnector(Response.java:115)
+	at org.apache.catalina.connector.Connector.createResponse(Connector.java:905)
+	at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:438)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:833)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Oct-2017 22:53:48.445 严重 [http-nio-8080-exec-7] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:53:48.445 严重 [http-nio-8080-exec-7] org.apache.coyote.http11.Http11Processor.service Error processing request
+ java.lang.NoClassDefFoundError: Could not initialize class org.apache.catalina.connector.CoyoteOutputStream
+	at org.apache.catalina.connector.Response.setConnector(Response.java:115)
+	at org.apache.catalina.connector.Connector.createResponse(Connector.java:905)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:309)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Oct-2017 22:53:48.446 严重 [http-nio-8080-exec-7] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:53:48.446 严重 [http-nio-8080-exec-7] org.apache.coyote.AbstractProtocol$ConnectionHandler.process Error reading request, ignored
+ java.lang.NoClassDefFoundError: Could not initialize class org.apache.catalina.connector.CoyoteOutputStream
+	at org.apache.catalina.connector.Response.setConnector(Response.java:115)
+	at org.apache.catalina.connector.Connector.createResponse(Connector.java:905)
+	at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:438)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:833)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Oct-2017 22:53:48.602 严重 [http-nio-8080-exec-8] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:53:48.602 严重 [http-nio-8080-exec-8] org.apache.coyote.http11.Http11Processor.service Error processing request
+ java.lang.NoClassDefFoundError: Could not initialize class org.apache.catalina.connector.CoyoteOutputStream
+	at org.apache.catalina.connector.Response.setConnector(Response.java:115)
+	at org.apache.catalina.connector.Connector.createResponse(Connector.java:905)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:309)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Oct-2017 22:53:48.602 严重 [http-nio-8080-exec-8] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:53:48.602 严重 [http-nio-8080-exec-8] org.apache.coyote.AbstractProtocol$ConnectionHandler.process Error reading request, ignored
+ java.lang.NoClassDefFoundError: Could not initialize class org.apache.catalina.connector.CoyoteOutputStream
+	at org.apache.catalina.connector.Response.setConnector(Response.java:115)
+	at org.apache.catalina.connector.Connector.createResponse(Connector.java:905)
+	at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:438)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:833)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Oct-2017 22:53:48.602 严重 [http-nio-8080-exec-9] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:53:48.602 严重 [http-nio-8080-exec-9] org.apache.coyote.http11.Http11Processor.service Error processing request
+ java.lang.NoClassDefFoundError: Could not initialize class org.apache.catalina.connector.CoyoteOutputStream
+	at org.apache.catalina.connector.Response.setConnector(Response.java:115)
+	at org.apache.catalina.connector.Connector.createResponse(Connector.java:905)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:309)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Oct-2017 22:53:48.617 严重 [http-nio-8080-exec-9] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:53:48.617 严重 [http-nio-8080-exec-9] org.apache.coyote.AbstractProtocol$ConnectionHandler.process Error reading request, ignored
+ java.lang.NoClassDefFoundError: Could not initialize class org.apache.catalina.connector.CoyoteOutputStream
+	at org.apache.catalina.connector.Response.setConnector(Response.java:115)
+	at org.apache.catalina.connector.Connector.createResponse(Connector.java:905)
+	at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:438)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:833)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Oct-2017 22:53:48.617 严重 [http-nio-8080-exec-10] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:53:48.617 严重 [http-nio-8080-exec-10] org.apache.coyote.http11.Http11Processor.service Error processing request
+ java.lang.NoClassDefFoundError: Could not initialize class org.apache.catalina.connector.CoyoteOutputStream
+	at org.apache.catalina.connector.Response.setConnector(Response.java:115)
+	at org.apache.catalina.connector.Connector.createResponse(Connector.java:905)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:309)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Oct-2017 22:53:48.617 严重 [http-nio-8080-exec-10] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:53:48.617 严重 [http-nio-8080-exec-10] org.apache.coyote.AbstractProtocol$ConnectionHandler.process Error reading request, ignored
+ java.lang.NoClassDefFoundError: Could not initialize class org.apache.catalina.connector.CoyoteOutputStream
+	at org.apache.catalina.connector.Response.setConnector(Response.java:115)
+	at org.apache.catalina.connector.Connector.createResponse(Connector.java:905)
+	at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:438)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:833)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Oct-2017 22:53:48.617 严重 [http-nio-8080-exec-1] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:53:48.617 严重 [http-nio-8080-exec-1] org.apache.coyote.http11.Http11Processor.service Error processing request
+ java.lang.NoClassDefFoundError: Could not initialize class org.apache.catalina.connector.CoyoteOutputStream
+	at org.apache.catalina.connector.Response.setConnector(Response.java:115)
+	at org.apache.catalina.connector.Connector.createResponse(Connector.java:905)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:309)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Oct-2017 22:53:48.617 严重 [http-nio-8080-exec-1] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:53:48.617 严重 [http-nio-8080-exec-1] org.apache.coyote.AbstractProtocol$ConnectionHandler.process Error reading request, ignored
+ java.lang.NoClassDefFoundError: Could not initialize class org.apache.catalina.connector.CoyoteOutputStream
+	at org.apache.catalina.connector.Response.setConnector(Response.java:115)
+	at org.apache.catalina.connector.Connector.createResponse(Connector.java:905)
+	at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:438)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:833)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Oct-2017 22:53:48.617 严重 [http-nio-8080-exec-2] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:53:48.617 严重 [http-nio-8080-exec-2] org.apache.coyote.http11.Http11Processor.service Error processing request
+ java.lang.NoClassDefFoundError: Could not initialize class org.apache.catalina.connector.CoyoteOutputStream
+	at org.apache.catalina.connector.Response.setConnector(Response.java:115)
+	at org.apache.catalina.connector.Connector.createResponse(Connector.java:905)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:309)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Oct-2017 22:53:48.633 严重 [http-nio-8080-exec-2] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:53:48.633 严重 [http-nio-8080-exec-2] org.apache.coyote.AbstractProtocol$ConnectionHandler.process Error reading request, ignored
+ java.lang.NoClassDefFoundError: Could not initialize class org.apache.catalina.connector.CoyoteOutputStream
+	at org.apache.catalina.connector.Response.setConnector(Response.java:115)
+	at org.apache.catalina.connector.Connector.createResponse(Connector.java:905)
+	at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:438)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:833)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Oct-2017 22:53:48.665 严重 [http-nio-8080-exec-3] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:53:48.665 严重 [http-nio-8080-exec-3] org.apache.coyote.http11.Http11Processor.service Error processing request
+ java.lang.NoClassDefFoundError: Could not initialize class org.apache.catalina.connector.CoyoteOutputStream
+	at org.apache.catalina.connector.Response.setConnector(Response.java:115)
+	at org.apache.catalina.connector.Connector.createResponse(Connector.java:905)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:309)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Oct-2017 22:53:48.665 严重 [http-nio-8080-exec-3] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:53:48.665 严重 [http-nio-8080-exec-3] org.apache.coyote.AbstractProtocol$ConnectionHandler.process Error reading request, ignored
+ java.lang.NoClassDefFoundError: Could not initialize class org.apache.catalina.connector.CoyoteOutputStream
+	at org.apache.catalina.connector.Response.setConnector(Response.java:115)
+	at org.apache.catalina.connector.Connector.createResponse(Connector.java:905)
+	at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:438)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:833)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Oct-2017 22:54:04.506 严重 [main] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:54:04.599 严重 [main] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:54:04.599 严重 [main] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:54:04.615 严重 [main] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:54:04.677 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat 8.5.x-dev
+31-Oct-2017 22:54:04.677 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          unknown
+31-Oct-2017 22:54:04.677 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.x
+31-Oct-2017 22:54:04.677 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+31-Oct-2017 22:54:04.693 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+31-Oct-2017 22:54:04.693 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+31-Oct-2017 22:54:04.693 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\Java\jdk1.8.0_92\jre
+31-Oct-2017 22:54:04.693 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_92-b14
+31-Oct-2017 22:54:04.693 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-Oct-2017 22:54:04.693 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home
+31-Oct-2017 22:54:04.693 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home
+31-Oct-2017 22:54:04.693 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:8438,suspend=y,server=n
+31-Oct-2017 22:54:04.693 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=catalina-home
+31-Oct-2017 22:54:04.693 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=catalina-home
+31-Oct-2017 22:54:04.693 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=catalina-home/endorsed
+31-Oct-2017 22:54:04.693 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=catalina-home/temp
+31-Oct-2017 22:54:04.693 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Oct-2017 22:54:04.693 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=catalina-home/conf/logging.properties
+31-Oct-2017 22:54:04.693 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+31-Oct-2017 22:54:04.693 严重 [main] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:54:04.912 警告 [main] org.apache.catalina.deploy.NamingResourcesImpl.initInternal Failed to create MBean for naming resource [UserDatabase]
+ javax.management.MBeanException
+	at org.apache.catalina.mbeans.MBeanUtils.createMBean(MBeanUtils.java:153)
+	at org.apache.catalina.deploy.NamingResourcesImpl.initInternal(NamingResourcesImpl.java:940)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:843)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:621)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:311)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:494)
+Caused by: java.lang.Exception: ManagedBean is not found with ContextResource
+	at org.apache.catalina.mbeans.MBeanUtils.createMBean(MBeanUtils.java:152)
+	... 11 more
+
+31-Oct-2017 22:54:04.991 严重 [main] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:54:04.991 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+31-Oct-2017 22:54:05.257 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Oct-2017 22:54:05.257 严重 [main] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:54:05.257 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+31-Oct-2017 22:54:05.273 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Oct-2017 22:54:05.273 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1087 ms
+31-Oct-2017 22:54:05.335 严重 [main] org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans Exception creating UserDatabase MBeans for UserDatabase
+ java.lang.IllegalArgumentException: Cannot create UserDatabase MBean for resource UserDatabase
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:183)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:148)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:110)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:82)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:395)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:339)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:786)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:670)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:355)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:495)
+Caused by: javax.management.MBeanException
+	at org.apache.catalina.mbeans.MBeanUtils.createMBean(MBeanUtils.java:308)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:181)
+	... 15 more
+Caused by: java.lang.Exception: ManagedBean is not found with MemoryUserDatabase
+	at org.apache.catalina.mbeans.MBeanUtils.createMBean(MBeanUtils.java:307)
+	... 16 more
+
+31-Oct-2017 22:54:05.335 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+31-Oct-2017 22:54:05.335 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat 8.5.x-dev
+31-Oct-2017 22:54:05.398 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\docs]
+31-Oct-2017 22:54:05.570 严重 [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/docs]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:752)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1144)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1878)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: java.lang.NullPointerException
+	at org.apache.catalina.util.CharsetMapper.<init>(CharsetMapper.java:76)
+	at org.apache.catalina.util.CharsetMapper.<init>(CharsetMapper.java:59)
+	at org.apache.catalina.core.StandardContext.getCharsetMapper(StandardContext.java:1360)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5010)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+
+31-Oct-2017 22:54:05.570 严重 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Error deploying web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\docs]
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/docs]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:756)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1144)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1878)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Oct-2017 22:54:05.570 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\docs] has finished in [172] ms
+31-Oct-2017 22:54:05.570 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\examples]
+31-Oct-2017 22:54:05.602 严重 [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/examples]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:752)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1144)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1878)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: java.lang.NullPointerException
+	at org.apache.catalina.util.CharsetMapper.<init>(CharsetMapper.java:76)
+	at org.apache.catalina.util.CharsetMapper.<init>(CharsetMapper.java:59)
+	at org.apache.catalina.core.StandardContext.getCharsetMapper(StandardContext.java:1360)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5010)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+
+31-Oct-2017 22:54:05.602 严重 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Error deploying web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\examples]
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/examples]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:756)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1144)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1878)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Oct-2017 22:54:05.602 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\examples] has finished in [32] ms
+31-Oct-2017 22:54:05.602 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\host-manager]
+31-Oct-2017 22:54:05.664 严重 [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/host-manager]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:752)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1144)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1878)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: java.lang.NullPointerException
+	at org.apache.catalina.util.CharsetMapper.<init>(CharsetMapper.java:76)
+	at org.apache.catalina.util.CharsetMapper.<init>(CharsetMapper.java:59)
+	at org.apache.catalina.core.StandardContext.getCharsetMapper(StandardContext.java:1360)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5010)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+
+31-Oct-2017 22:54:05.664 严重 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Error deploying web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\host-manager]
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/host-manager]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:756)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1144)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1878)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Oct-2017 22:54:05.664 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\host-manager] has finished in [62] ms
+31-Oct-2017 22:54:05.664 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\manager]
+31-Oct-2017 22:54:05.680 严重 [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/manager]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:752)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1144)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1878)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: java.lang.NullPointerException
+	at org.apache.catalina.util.CharsetMapper.<init>(CharsetMapper.java:76)
+	at org.apache.catalina.util.CharsetMapper.<init>(CharsetMapper.java:59)
+	at org.apache.catalina.core.StandardContext.getCharsetMapper(StandardContext.java:1360)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5010)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+
+31-Oct-2017 22:54:05.680 严重 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Error deploying web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\manager]
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/manager]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:756)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1144)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1878)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Oct-2017 22:54:05.680 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\manager] has finished in [16] ms
+31-Oct-2017 22:54:05.680 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\ROOT]
+31-Oct-2017 22:54:05.695 严重 [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:752)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1144)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1878)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: java.lang.NullPointerException
+	at org.apache.catalina.util.CharsetMapper.<init>(CharsetMapper.java:76)
+	at org.apache.catalina.util.CharsetMapper.<init>(CharsetMapper.java:59)
+	at org.apache.catalina.core.StandardContext.getCharsetMapper(StandardContext.java:1360)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5010)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+
+31-Oct-2017 22:54:05.711 严重 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Error deploying web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\ROOT]
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:756)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1144)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1878)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Oct-2017 22:54:05.711 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\ROOT] has finished in [31] ms
+31-Oct-2017 22:54:05.711 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+31-Oct-2017 22:54:05.742 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+31-Oct-2017 22:54:05.742 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 464 ms
+31-Oct-2017 22:56:53.504 严重 [main] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:56:53.555 严重 [main] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:56:53.571 严重 [main] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:56:53.589 严重 [main] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:56:53.710 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat 8.5.x-dev
+31-Oct-2017 22:56:53.710 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          unknown
+31-Oct-2017 22:56:53.710 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.x
+31-Oct-2017 22:56:53.711 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+31-Oct-2017 22:56:53.711 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+31-Oct-2017 22:56:53.711 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+31-Oct-2017 22:56:53.711 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\Java\jdk1.8.0_92\jre
+31-Oct-2017 22:56:53.711 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_92-b14
+31-Oct-2017 22:56:53.711 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-Oct-2017 22:56:53.712 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home
+31-Oct-2017 22:56:53.712 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home
+31-Oct-2017 22:56:53.712 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=catalina-home
+31-Oct-2017 22:56:53.712 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=catalina-home
+31-Oct-2017 22:56:53.712 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=catalina-home/endorsed
+31-Oct-2017 22:56:53.713 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=catalina-home/temp
+31-Oct-2017 22:56:53.713 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Oct-2017 22:56:53.713 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=catalina-home/conf/logging.properties
+31-Oct-2017 22:56:53.713 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:D:\IntelliJ_IDEA\lib\idea_rt.jar=8474:D:\IntelliJ_IDEA\bin
+31-Oct-2017 22:56:53.713 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+31-Oct-2017 22:56:53.713 严重 [main] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:56:54.054 警告 [main] org.apache.catalina.deploy.NamingResourcesImpl.initInternal Failed to create MBean for naming resource [UserDatabase]
+ javax.management.MBeanException
+	at org.apache.catalina.mbeans.MBeanUtils.createMBean(MBeanUtils.java:153)
+	at org.apache.catalina.deploy.NamingResourcesImpl.initInternal(NamingResourcesImpl.java:940)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:843)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:621)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:311)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:494)
+Caused by: java.lang.Exception: ManagedBean is not found with ContextResource
+	at org.apache.catalina.mbeans.MBeanUtils.createMBean(MBeanUtils.java:152)
+	... 11 more
+
+31-Oct-2017 22:56:54.428 严重 [main] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:56:54.428 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+31-Oct-2017 22:56:54.636 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Oct-2017 22:56:54.640 严重 [main] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:56:54.640 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+31-Oct-2017 22:56:54.645 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Oct-2017 22:56:54.645 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1535 ms
+31-Oct-2017 22:56:54.740 严重 [main] org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans Exception creating UserDatabase MBeans for UserDatabase
+ java.lang.IllegalArgumentException: Cannot create UserDatabase MBean for resource UserDatabase
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:183)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:148)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:110)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:82)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:395)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:339)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:786)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:670)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:355)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:495)
+Caused by: javax.management.MBeanException
+	at org.apache.catalina.mbeans.MBeanUtils.createMBean(MBeanUtils.java:308)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:181)
+	... 15 more
+Caused by: java.lang.Exception: ManagedBean is not found with MemoryUserDatabase
+	at org.apache.catalina.mbeans.MBeanUtils.createMBean(MBeanUtils.java:307)
+	... 16 more
+
+31-Oct-2017 22:56:54.741 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+31-Oct-2017 22:56:54.742 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat 8.5.x-dev
+31-Oct-2017 22:56:54.785 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\docs]
+31-Oct-2017 22:56:54.936 严重 [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/docs]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:752)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1144)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1878)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: java.lang.NullPointerException
+	at org.apache.catalina.util.CharsetMapper.<init>(CharsetMapper.java:76)
+	at org.apache.catalina.util.CharsetMapper.<init>(CharsetMapper.java:59)
+	at org.apache.catalina.core.StandardContext.getCharsetMapper(StandardContext.java:1360)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5010)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+
+31-Oct-2017 22:56:54.952 严重 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Error deploying web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\docs]
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/docs]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:756)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1144)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1878)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Oct-2017 22:56:54.952 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\docs] has finished in [167] ms
+31-Oct-2017 22:56:54.952 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\examples]
+31-Oct-2017 22:56:54.984 严重 [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/examples]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:752)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1144)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1878)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: java.lang.NullPointerException
+	at org.apache.catalina.util.CharsetMapper.<init>(CharsetMapper.java:76)
+	at org.apache.catalina.util.CharsetMapper.<init>(CharsetMapper.java:59)
+	at org.apache.catalina.core.StandardContext.getCharsetMapper(StandardContext.java:1360)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5010)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+
+31-Oct-2017 22:56:54.984 严重 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Error deploying web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\examples]
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/examples]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:756)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1144)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1878)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Oct-2017 22:56:54.984 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\examples] has finished in [32] ms
+31-Oct-2017 22:56:54.984 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\host-manager]
+31-Oct-2017 22:56:55.037 严重 [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/host-manager]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:752)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1144)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1878)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: java.lang.NullPointerException
+	at org.apache.catalina.util.CharsetMapper.<init>(CharsetMapper.java:76)
+	at org.apache.catalina.util.CharsetMapper.<init>(CharsetMapper.java:59)
+	at org.apache.catalina.core.StandardContext.getCharsetMapper(StandardContext.java:1360)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5010)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+
+31-Oct-2017 22:56:55.037 严重 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Error deploying web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\host-manager]
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/host-manager]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:756)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1144)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1878)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Oct-2017 22:56:55.037 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\host-manager] has finished in [53] ms
+31-Oct-2017 22:56:55.037 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\manager]
+31-Oct-2017 22:56:55.069 严重 [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/manager]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:752)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1144)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1878)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: java.lang.NullPointerException
+	at org.apache.catalina.util.CharsetMapper.<init>(CharsetMapper.java:76)
+	at org.apache.catalina.util.CharsetMapper.<init>(CharsetMapper.java:59)
+	at org.apache.catalina.core.StandardContext.getCharsetMapper(StandardContext.java:1360)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5010)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+
+31-Oct-2017 22:56:55.069 严重 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Error deploying web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\manager]
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/manager]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:756)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1144)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1878)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Oct-2017 22:56:55.069 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\manager] has finished in [32] ms
+31-Oct-2017 22:56:55.069 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\ROOT]
+31-Oct-2017 22:56:55.069 严重 [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:752)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1144)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1878)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: java.lang.NullPointerException
+	at org.apache.catalina.util.CharsetMapper.<init>(CharsetMapper.java:76)
+	at org.apache.catalina.util.CharsetMapper.<init>(CharsetMapper.java:59)
+	at org.apache.catalina.core.StandardContext.getCharsetMapper(StandardContext.java:1360)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5010)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+
+31-Oct-2017 22:56:55.069 严重 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Error deploying web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\ROOT]
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:756)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1144)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1878)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Oct-2017 22:56:55.101 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\ROOT] has finished in [32] ms
+31-Oct-2017 22:56:55.101 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+31-Oct-2017 22:56:55.161 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+31-Oct-2017 22:56:55.176 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 534 ms
+31-Oct-2017 22:57:44.267 严重 [main] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:57:44.314 严重 [main] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:57:44.314 严重 [main] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:57:44.329 严重 [main] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:57:44.376 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/@VERSION@
+31-Oct-2017 22:57:44.376 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          @VERSION_BUILT@
+31-Oct-2017 22:57:44.376 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         @VERSION_NUMBER@
+31-Oct-2017 22:57:44.376 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+31-Oct-2017 22:57:44.376 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+31-Oct-2017 22:57:44.376 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+31-Oct-2017 22:57:44.376 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\Java\jdk1.8.0_92\jre
+31-Oct-2017 22:57:44.376 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_92-b14
+31-Oct-2017 22:57:44.376 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-Oct-2017 22:57:44.376 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home
+31-Oct-2017 22:57:44.376 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home
+31-Oct-2017 22:57:44.376 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=catalina-home
+31-Oct-2017 22:57:44.376 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=catalina-home
+31-Oct-2017 22:57:44.376 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=catalina-home/endorsed
+31-Oct-2017 22:57:44.376 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=catalina-home/temp
+31-Oct-2017 22:57:44.376 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Oct-2017 22:57:44.376 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=catalina-home/conf/logging.properties
+31-Oct-2017 22:57:44.376 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:D:\IntelliJ_IDEA\lib\idea_rt.jar=8497:D:\IntelliJ_IDEA\bin
+31-Oct-2017 22:57:44.376 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+31-Oct-2017 22:57:44.376 严重 [main] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:57:44.626 严重 [main] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:57:44.626 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+31-Oct-2017 22:57:44.792 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Oct-2017 22:57:44.792 严重 [main] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 22:57:44.792 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+31-Oct-2017 22:57:44.808 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Oct-2017 22:57:44.808 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1041 ms
+31-Oct-2017 22:57:44.854 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+31-Oct-2017 22:57:44.854 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/@VERSION@
+31-Oct-2017 22:57:44.901 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\docs]
+31-Oct-2017 22:57:50.736 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Oct-2017 22:57:51.282 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [530] milliseconds.
+31-Oct-2017 22:57:51.314 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\docs] has finished in [6,413] ms
+31-Oct-2017 22:57:51.314 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\examples]
+31-Oct-2017 22:57:55.945 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Oct-2017 22:57:55.997 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\examples] has finished in [4,683] ms
+31-Oct-2017 22:57:55.997 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\host-manager]
+31-Oct-2017 22:57:56.059 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\host-manager] has finished in [62] ms
+31-Oct-2017 22:57:56.059 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\manager]
+31-Oct-2017 22:57:56.121 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\manager] has finished in [62] ms
+31-Oct-2017 22:57:56.121 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\ROOT]
+31-Oct-2017 22:57:59.345 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Oct-2017 22:57:59.345 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\ROOT] has finished in [3,224] ms
+31-Oct-2017 22:57:59.360 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+31-Oct-2017 22:57:59.360 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+31-Oct-2017 22:57:59.376 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 14569 ms
+31-Oct-2017 22:58:11.680 严重 [http-nio-8080-exec-1] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 23:21:05.270 严重 [main] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 23:21:05.357 严重 [main] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 23:21:05.433 严重 [main] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 23:21:05.438 严重 [main] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 23:21:05.579 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/@VERSION@
+31-Oct-2017 23:21:05.579 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          @VERSION_BUILT@
+31-Oct-2017 23:21:05.579 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         @VERSION_NUMBER@
+31-Oct-2017 23:21:05.579 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+31-Oct-2017 23:21:05.579 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+31-Oct-2017 23:21:05.579 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+31-Oct-2017 23:21:05.579 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\Java\jdk1.8.0_92\jre
+31-Oct-2017 23:21:05.580 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_92-b14
+31-Oct-2017 23:21:05.580 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-Oct-2017 23:21:05.580 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home
+31-Oct-2017 23:21:05.580 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home
+31-Oct-2017 23:21:05.581 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=catalina-home
+31-Oct-2017 23:21:05.581 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=catalina-home
+31-Oct-2017 23:21:05.581 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=catalina-home/endorsed
+31-Oct-2017 23:21:05.581 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=catalina-home/temp
+31-Oct-2017 23:21:05.581 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Oct-2017 23:21:05.581 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=catalina-home/conf/logging.properties
+31-Oct-2017 23:21:05.581 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:D:\IntelliJ_IDEA\lib\idea_rt.jar=9249:D:\IntelliJ_IDEA\bin
+31-Oct-2017 23:21:05.582 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+31-Oct-2017 23:21:05.582 严重 [main] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 23:21:05.927 严重 [main] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 23:21:05.928 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+31-Oct-2017 23:21:06.161 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Oct-2017 23:21:06.167 严重 [main] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+31-Oct-2017 23:21:06.167 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+31-Oct-2017 23:21:06.173 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Oct-2017 23:21:06.174 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2062 ms
+31-Oct-2017 23:21:06.265 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+31-Oct-2017 23:21:06.265 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/@VERSION@
+31-Oct-2017 23:21:06.281 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\docs]
+31-Oct-2017 23:21:14.251 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Oct-2017 23:21:15.052 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [761] milliseconds.
+31-Oct-2017 23:21:15.082 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\docs] has finished in [8,800] ms
+31-Oct-2017 23:21:15.082 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\examples]
+31-Oct-2017 23:21:20.773 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Oct-2017 23:21:20.811 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\examples] has finished in [5,729] ms
+31-Oct-2017 23:21:20.811 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\host-manager]
+31-Oct-2017 23:21:20.851 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\host-manager] has finished in [40] ms
+31-Oct-2017 23:21:20.851 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\manager]
+31-Oct-2017 23:21:20.940 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\manager] has finished in [89] ms
+31-Oct-2017 23:21:20.940 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\ROOT]
+31-Oct-2017 23:21:24.203 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Oct-2017 23:21:24.203 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\MyProjects\GitHub\blacky8\Java\Project\ProjectTomcat\catalina-home\webapps\ROOT] has finished in [3,263] ms
+31-Oct-2017 23:21:24.203 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+31-Oct-2017 23:21:24.219 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+31-Oct-2017 23:21:24.234 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 18062 ms
+31-Oct-2017 23:21:35.881 严重 [http-nio-8080-exec-1] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
