@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.blackybear.web.dao.PaymentMapper">
+    <resultMap id="BaseResultMap" type="Payment">
+        <id column="payment_id" jdbcType="SMALLINT" property="paymentId"/>
+        <result column="customer_id" jdbcType="SMALLINT" property="customerId"/>
+        <result column="staff_id" jdbcType="TINYINT" property="staffId"/>
+        <result column="rental_id" jdbcType="INTEGER" property="rentalId"/>
+        <result column="amount" jdbcType="DECIMAL" property="amount"/>
+        <result column="payment_date" jdbcType="TIMESTAMP" property="paymentDate"/>
+        <result column="last_update" jdbcType="TIMESTAMP" property="lastUpdate"/>
+    </resultMap>
+
+    <select id="selectByPrimaryKey" parameterType="short" resultMap="BaseResultMap">
+        select payment_id, customer_id, staff_id, rental_id, amount, payment_date, last_update
+        from payment
+        where payment_id = #{paymentId,jdbcType=SMALLINT}
+    </select>
+    <delete id="deleteByPrimaryKey" parameterType="short">
+        delete from payment where payment_id = #{paymentId,jdbcType=SMALLINT}
+    </delete>
+    <insert id="insert" parameterType="Payment" keyProperty="paymentId">
+        insert into payment (customer_id, staff_id, rental_id, amount, payment_date, last_update)
+        values (#{customerId,jdbcType=SMALLINT},
+                #{staffId,jdbcType=TINYINT},
+                #{rentalId,jdbcType=INTEGER},
+                #{amount,jdbcType=DECIMAL},
+                #{paymentDate,jdbcType=TIMESTAMP},
+                #{lastUpdate,jdbcType=TIMESTAMP})
+    </insert>
+    <insert id="insertSelective" parameterType="Payment" keyProperty="paymentId">
+        insert into payment
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="customerId != null">
+                customer_id,
+            </if>
+            <if test="staffId != null">
+                staff_id,
+            </if>
+            <if test="rentalId != null">
+                rental_id,
+            </if>
+            <if test="amount != null">
+                amount,
+            </if>
+            <if test="paymentDate != null">
+                payment_date,
+            </if>
+            <if test="lastUpdate != null">
+                last_update,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="customerId != null">
+                #{customerId,jdbcType=SMALLINT},
+            </if>
+            <if test="staffId != null">
+                #{staffId,jdbcType=TINYINT},
+            </if>
+            <if test="rentalId != null">
+                #{rentalId,jdbcType=INTEGER},
+            </if>
+            <if test="amount != null">
+                #{amount,jdbcType=DECIMAL},
+            </if>
+            <if test="paymentDate != null">
+                #{paymentDate,jdbcType=TIMESTAMP},
+            </if>
+            <if test="lastUpdate != null">
+                #{lastUpdate,jdbcType=TIMESTAMP},
+            </if>
+        </trim>
+    </insert>
+    <update id="updateByPrimaryKeySelective" parameterType="Payment">
+        update payment
+        <set>
+            <if test="customerId != null">
+                customer_id = #{customerId,jdbcType=SMALLINT},
+            </if>
+            <if test="staffId != null">
+                staff_id = #{staffId,jdbcType=TINYINT},
+            </if>
+            <if test="rentalId != null">
+                rental_id = #{rentalId,jdbcType=INTEGER},
+            </if>
+            <if test="amount != null">
+                amount = #{amount,jdbcType=DECIMAL},
+            </if>
+            <if test="paymentDate != null">
+                payment_date = #{paymentDate,jdbcType=TIMESTAMP},
+            </if>
+            <if test="lastUpdate != null">
+                last_update = #{lastUpdate,jdbcType=TIMESTAMP},
+            </if>
+        </set>
+        where payment_id = #{paymentId,jdbcType=SMALLINT}
+    </update>
+    <update id="updateByPrimaryKey" parameterType="Payment">
+        update payment
+        set customer_id = #{customerId,jdbcType=SMALLINT},
+          staff_id = #{staffId,jdbcType=TINYINT},
+          rental_id = #{rentalId,jdbcType=INTEGER},
+          amount = #{amount,jdbcType=DECIMAL},
+          payment_date = #{paymentDate,jdbcType=TIMESTAMP},
+          last_update = #{lastUpdate,jdbcType=TIMESTAMP}
+        where payment_id = #{paymentId,jdbcType=SMALLINT}
+  </update>
+</mapper>

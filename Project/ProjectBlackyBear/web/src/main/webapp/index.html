@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>门户页</title>
+    <meta name="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+
+    <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+</head>
+<body>
+    <h1>门户页</h1>
+    <button id="btn_test">Test</button>
+</body>
+<script type="text/javascript">
+    $(function () {
+        initPage();
+    });
+    
+    function initPage() {
+        $("#btn_test").on("click", testAjax);
+    }
+
+    function testAjax() {
+        var url = window.location.origin + contextPath + '/test';
+        $.ajax({
+            url : url,
+            type : 'get',
+            headers:{
+                Accept: "application/json"
+            },
+            // dataType:"json",
+            // data : JSON.stringify(requestData),
+            beforeSend : function() {
+                // $.showLoading("数据提交中")
+            },
+            success : function(data, textStatus, xhr) {
+                if (data.code === 0) {
+                    alert("success");
+                } else {
+                    alert("failed");
+                }
+            },
+            error : function(xhr, textStatus, errorThrown) {
+                alert("error");
+            },
+            complete : function(xhr, textStatus){
+                // $.hideLoading();
+            }
+        });
+    }
+</script>
+</html>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.blackybear.web.dao.FilmCategoryMapper">
+    <resultMap id="BaseResultMap" type="FilmCategory">
+        <id column="film_id" jdbcType="SMALLINT" property="filmId"/>
+        <id column="category_id" jdbcType="TINYINT" property="categoryId"/>
+        <result column="last_update" jdbcType="TIMESTAMP" property="lastUpdate"/>
+    </resultMap>
+
+    <select id="selectByPrimaryKey" parameterType="FilmCategoryKey" resultMap="BaseResultMap">
+        select film_id, category_id, last_update
+        from film_category
+        where film_id = #{filmId,jdbcType=SMALLINT}
+        and category_id = #{categoryId,jdbcType=TINYINT}
+    </select>
+    <delete id="deleteByPrimaryKey" parameterType="FilmCategoryKey">
+        delete from film_category
+        where film_id = #{filmId,jdbcType=SMALLINT}
+        and category_id = #{categoryId,jdbcType=TINYINT}
+    </delete>
+    <insert id="insert" parameterType="FilmCategory">
+        insert into film_category (film_id, category_id, last_update)
+        values (#{filmId,jdbcType=SMALLINT}, #{categoryId,jdbcType=TINYINT}, #{lastUpdate,jdbcType=TIMESTAMP})
+    </insert>
+    <insert id="insertSelective" parameterType="FilmCategory">
+        insert into film_category
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="filmId != null">
+                film_id,
+            </if>
+            <if test="categoryId != null">
+                category_id,
+            </if>
+            <if test="lastUpdate != null">
+                last_update,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="filmId != null">
+                #{filmId,jdbcType=SMALLINT},
+            </if>
+            <if test="categoryId != null">
+                #{categoryId,jdbcType=TINYINT},
+            </if>
+            <if test="lastUpdate != null">
+                #{lastUpdate,jdbcType=TIMESTAMP},
+            </if>
+        </trim>
+    </insert>
+    <update id="updateByPrimaryKeySelective" parameterType="FilmCategory">
+        update film_category
+        <set>
+            <if test="lastUpdate != null">
+                last_update = #{lastUpdate,jdbcType=TIMESTAMP},
+            </if>
+        </set>
+        where film_id = #{filmId,jdbcType=SMALLINT}
+        and category_id = #{categoryId,jdbcType=TINYINT}
+    </update>
+    <update id="updateByPrimaryKey" parameterType="FilmCategory">
+        update film_category
+        set last_update = #{lastUpdate,jdbcType=TIMESTAMP}
+        where film_id = #{filmId,jdbcType=SMALLINT}
+          and category_id = #{categoryId,jdbcType=TINYINT}
+  </update>
+</mapper>

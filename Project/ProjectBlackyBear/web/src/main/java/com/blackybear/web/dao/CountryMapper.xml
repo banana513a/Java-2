@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.blackybear.web.dao.CountryMapper">
+    <resultMap id="BaseResultMap" type="Country">
+        <id column="country_id" jdbcType="SMALLINT" property="countryId"/>
+        <result column="country" jdbcType="VARCHAR" property="country"/>
+        <result column="last_update" jdbcType="TIMESTAMP" property="lastUpdate"/>
+    </resultMap>
+    <select id="selectByPrimaryKey" parameterType="short" resultMap="BaseResultMap">
+        select country_id, country, last_update
+        from country
+        where country_id = #{countryId,jdbcType=SMALLINT}
+    </select>
+    <delete id="deleteByPrimaryKey" parameterType="short">
+        delete from country where country_id = #{countryId,jdbcType=SMALLINT}
+    </delete>
+    <insert id="insert" parameterType="Country" keyProperty="countryId">
+        insert into country (country, last_update)
+        values (#{country,jdbcType=VARCHAR},
+                #{lastUpdate,jdbcType=TIMESTAMP})
+    </insert>
+    <insert id="insertSelective" parameterType="Country" keyProperty="countryId">
+        insert into country
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="country != null">
+                country,
+            </if>
+            <if test="lastUpdate != null">
+                last_update,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="country != null">
+                #{country,jdbcType=VARCHAR},
+            </if>
+            <if test="lastUpdate != null">
+                #{lastUpdate,jdbcType=TIMESTAMP},
+            </if>
+        </trim>
+    </insert>
+    <update id="updateByPrimaryKeySelective" parameterType="Country">
+        update country
+        <set>
+            <if test="country != null">
+                country = #{country,jdbcType=VARCHAR},
+            </if>
+            <if test="lastUpdate != null">
+                last_update = #{lastUpdate,jdbcType=TIMESTAMP},
+            </if>
+        </set>
+        where country_id = #{countryId,jdbcType=SMALLINT}
+    </update>
+    <update id="updateByPrimaryKey" parameterType="Country">
+        update country
+        set country = #{country,jdbcType=VARCHAR},
+          last_update = #{lastUpdate,jdbcType=TIMESTAMP}
+        where country_id = #{countryId,jdbcType=SMALLINT}
+  </update>
+</mapper>

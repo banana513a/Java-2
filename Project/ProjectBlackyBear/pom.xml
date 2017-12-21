@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.blackybear</groupId>
@@ -15,8 +16,8 @@
         <module>test</module>
     </modules>
 
-    <!--********************** Maven plugins*****************************-->
     <build>
+        <!--region Maven build configuration-->
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -28,7 +29,13 @@
                     <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.2.0</version>
+            </plugin>
         </plugins>
+        <!--endregion-->
     </build>
 
     <profiles>
@@ -47,30 +54,50 @@
         <!-- 版本号管理 -->
         <!-- Test -->
         <version.junit>4.12</version.junit>
+        <!--Log4j-->
+        <version.log4j>1.2.17</version.log4j>
         <!-- Spring -->
-        <spring.version>4.2.4.RELEASE</spring.version>
+        <spring.version>4.3.10.RELEASE</spring.version>
         <aspectj.version>1.8.0</aspectj.version>
-        <!--JDBC-->
-        <myql.version>6.0.5</myql.version>
-        <sqlserver.version>4.0</sqlserver.version>
-        <oracle.version>12.1.0</oracle.version>
-        <!--Redis-->
-        <jedis.version>2.0.0</jedis.version>
-        <!-- ORM -->
-        <hibernate.version>5.1.3.Final</hibernate.version>
-        <mybatis.version>3.4.1</mybatis.version>
         <!-- SpringMVC -->
-        <jackson.version>2.8.5</jackson.version>
         <fastjson.version>1.2.36</fastjson.version>
         <hibernate.version.validator>5.2.2.Final</hibernate.version.validator>
+        <!-- ORM -->
+        <mybatis.version>3.4.5</mybatis.version>
+        <mybatis-spring.version>1.3.1</mybatis-spring.version>
+        <druid.version>1.1.6</druid.version>
+        <!--<hibernate.version>5.1.3.Final</hibernate.version>-->
+        <!--JDBC-->
+        <myql.version>5.1.44</myql.version>
+        <sqlserver.version>4.0</sqlserver.version>
+        <oracle.version>12.1.0</oracle.version>
+        <!--Jedis-->
+        <jedis.version>2.0.0</jedis.version>
         <!--POI-->
         <poi.version>3.9</poi.version>
+        <!--Dozer-->
+        <dozer.version>5.5.1</dozer.version>
+        <!--okhttp-->
+        <okhttp.version>3.9.0</okhttp.version>
+        <!--Dom4j-->
+        <dom4j.version>1.6</dom4j.version>
+        <!--Lombok-->
+        <lombok.version>1.16.18</lombok.version>
     </properties>
 
     <!-- 依赖管理 -->
     <dependencyManagement>
         <dependencies>
-            <!--********************** Spring框架*****************************-->
+            <!-- region 测试框架-->
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>${version.junit}</version>
+                <scope>test</scope>
+            </dependency>
+            <!-- endregion -->
+
+            <!--region Spring框架-->
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-aop</artifactId>
@@ -193,9 +220,70 @@
                 <artifactId>aspectjweaver</artifactId>
                 <version>${aspectj.version}</version>
             </dependency>
+            <!--endregion-->
 
-            <!--********************** ORM框架*****************************-->
-            <!-- MySql JDBC Driver -->
+            <!--region SpringMVC框架-->
+            <!--JSON & XML-->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>${fastjson.version}</version>
+            </dependency>
+            <!--Hibernate validator -->
+            <dependency>
+                <groupId>org.hibernate</groupId>
+                <artifactId>hibernate-validator</artifactId>
+                <version>${hibernate.version.validator}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.hibernate</groupId>
+                <artifactId>hibernate-validator-annotation-processor</artifactId>
+                <version>${hibernate.version.validator}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.hibernate</groupId>
+                <artifactId>hibernate-validator-cdi</artifactId>
+                <version>${hibernate.version.validator}</version>
+            </dependency>
+            <!--endregion-->
+
+            <!--region ORM框架-->
+            <!-- MyBatis -->
+            <dependency>
+                <groupId>org.mybatis</groupId>
+                <artifactId>mybatis</artifactId>
+                <version>${mybatis.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.mybatis</groupId>
+                <artifactId>mybatis-spring</artifactId>
+                <version>${mybatis-spring.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid</artifactId>
+                <version>${druid.version}</version>
+            </dependency>
+
+            <!--&lt;!&ndash; Hibernate &ndash;&gt;-->
+            <!--<dependency>-->
+                <!--<groupId>org.hibernate</groupId>-->
+                <!--<artifactId>hibernate-core</artifactId>-->
+                <!--<version>${hibernate.version}</version>-->
+            <!--</dependency>-->
+            <!--<dependency>-->
+                <!--<groupId>org.hibernate</groupId>-->
+                <!--<artifactId>hibernate-c3p0</artifactId>-->
+                <!--<version>${hibernate.version}</version>-->
+            <!--</dependency>-->
+            <!--<dependency>-->
+                <!--<groupId>org.hibernate</groupId>-->
+                <!--<artifactId>hibernate-ehcache</artifactId>-->
+                <!--<version>${hibernate.version}</version>-->
+            <!--</dependency>-->
+            <!--endregion-->
+
+            <!--region JDBC-->
             <dependency>
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
@@ -213,6 +301,9 @@
                 <artifactId>sqljdbc4</artifactId>
                 <version>${sqlserver.version}</version>
             </dependency>
+            <!--endregion-->
+
+            <!--region Cache NoSQL-->
             <!--Jedis-->
             <dependency>
                 <groupId>redis.clients</groupId>
@@ -221,93 +312,17 @@
                 <!--<type>jar</type>-->
                 <!--<scope>compile</scope>-->
             </dependency>
-            <!-- MyBatis -->
-            <dependency>
-                <groupId>org.mybatis</groupId>
-                <artifactId>mybatis</artifactId>
-                <version>${mybatis.version}</version>
-            </dependency>
+            <!--endregion-->
 
-            <!-- Hibernate -->
+            <!--region Log框架-->
             <dependency>
-                <groupId>org.hibernate</groupId>
-                <artifactId>hibernate-core</artifactId>
-                <version>${hibernate.version}</version>
+                <groupId>log4j</groupId>
+                <artifactId>log4j</artifactId>
+                <version>${version.log4j}</version>
             </dependency>
-            <dependency>
-                <groupId>org.hibernate</groupId>
-                <artifactId>hibernate-c3p0</artifactId>
-                <version>${hibernate.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.hibernate</groupId>
-                <artifactId>hibernate-ehcache</artifactId>
-                <version>${hibernate.version}</version>
-            </dependency>
-            <!--********************** SpringMVC框架*****************************-->
-            <!--SpringMVC : Jackson JSON & XML-->
-            <dependency>
-                <groupId>com.fasterxml.jackson.core</groupId>
-                <artifactId>jackson-core</artifactId>
-                <version>${jackson.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.fasterxml.jackson.core</groupId>
-                <artifactId>jackson-databind</artifactId>
-                <version>${jackson.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.fasterxml.jackson.core</groupId>
-                <artifactId>jackson-annotations</artifactId>
-                <version>${jackson.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.fasterxml.jackson.dataformat</groupId>
-                <artifactId>jackson-dataformat-xml</artifactId>
-                <version>${jackson.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.fasterxml.jackson.module</groupId>
-                <artifactId>jackson-module-jaxb-annotations</artifactId>
-                <version>${jackson.version}</version>
-            </dependency>
+            <!-- endregion-->
 
-            <dependency>
-                <groupId>com.alibaba</groupId>
-                <artifactId>fastjson</artifactId>
-                <version>${fastjson.version}</version>
-            </dependency>
-
-            <!--SpringMVC : Hibernate validator -->
-            <dependency>
-                <groupId>org.hibernate</groupId>
-                <artifactId>hibernate-validator</artifactId>
-                <version>${hibernate.version.validator}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.hibernate</groupId>
-                <artifactId>hibernate-validator-annotation-processor</artifactId>
-                <version>${hibernate.version.validator}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.hibernate</groupId>
-                <artifactId>hibernate-validator-cdi</artifactId>
-                <version>${hibernate.version.validator}</version>
-            </dependency>
-
-            <!--********************** 日志框架*****************************-->
-
-
-            <!--********************** 测试框架*****************************-->
-            <dependency>
-                <groupId>junit</groupId>
-                <artifactId>junit</artifactId>
-                <version>${version.junit}</version>
-                <scope>test</scope>
-            </dependency>
-
-
-            <!--********************** POI 框架*****************************-->
+            <!--region POI框架-->
             <dependency>
                 <groupId>org.apache.poi</groupId>
                 <artifactId>poi</artifactId>
@@ -323,8 +338,22 @@
                 <artifactId>poi-ooxml-schemas</artifactId>
                 <version>${poi.version}</version>
             </dependency>
+            <!-- endregion -->
 
-            <!--********************** 其他依赖*****************************-->
+            <!--region 其他依赖-->
+            <!-- Servlet -->
+            <dependency>
+                <groupId>javax.servlet</groupId>
+                <artifactId>javax.servlet-api</artifactId>
+                <version>3.1.0</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>javax.servlet</groupId>
+                <artifactId>jstl</artifactId>
+                <version>1.2</version>
+            </dependency>
+
             <!-- Apache -->
             <dependency>
                 <groupId>commons-logging</groupId>
@@ -342,13 +371,14 @@
                 <version>2.5</version>
             </dependency>
             <dependency>
-                <groupId>commons-logging</groupId>
-                <artifactId>commons-logging</artifactId>
-            </dependency>
-            <dependency>
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-pool2</artifactId>
                 <version>2.4.2</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-lang</groupId>
+                <artifactId>commons-lang</artifactId>
+                <version>2.6</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.commons</groupId>
@@ -361,17 +391,38 @@
                 <version>1.10</version>
             </dependency>
 
-            <!-- Servlet -->
+            <!--okhttp-->
             <dependency>
-                <groupId>javax.validation</groupId>
-                <artifactId>validation-api</artifactId>
-                <version>1.1.0.Final</version>
+                <groupId>com.squareup.okhttp3</groupId>
+                <artifactId>okhttp</artifactId>
+                <version>${okhttp.version}</version>
+            </dependency>
+
+            <!--dom4j-->
+            <dependency>
+                <groupId>dom4j</groupId>
+                <artifactId>dom4j</artifactId>
+                <version>${dom4j.version}</version>
+            </dependency>
+
+            <!--Dozer-->
+            <dependency>
+                <groupId>net.sf.dozer</groupId>
+                <artifactId>dozer</artifactId>
+                <version>${dozer.version}</version>
             </dependency>
             <dependency>
-                <groupId>javax.servlet</groupId>
-                <artifactId>javax.servlet-api</artifactId>
-                <version>3.1.0</version>
+                <groupId>net.sf.dozer</groupId>
+                <artifactId>dozer-spring</artifactId>
+                <version>${dozer.version}</version>
             </dependency>
+            <!--Lombok-->
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+            </dependency>
+            <!--endregion-->
         </dependencies>
     </dependencyManagement>
 </project>

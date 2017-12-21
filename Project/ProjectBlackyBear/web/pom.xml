@@ -8,30 +8,38 @@
     </parent>
     <artifactId>web</artifactId>
     <packaging>war</packaging>
-    <name>web Maven Webapp</name>
-    <!--<url>http://maven.apache.org</url>-->
+    <name>web</name>
 
     <build>
-        <filters>
-            <filter>src/main/resources/filters/${environment}/db.properties</filter>
-            <filter>src/main/resources/filters/${environment}/log4j.properties</filter>
-        </filters>
+        <finalName>web-${parent.version}</finalName>
+        <!--<filters>-->
+            <!--<filter>src/main/resources/filters/${environment}/c3p0.properties</filter>-->
+            <!--<filter>src/main/resources/filters/${environment}/config.properties</filter>-->
+            <!--<filter>src/main/resources/filters/${environment}/db.properties</filter>-->
+            <!--<filter>src/main/resources/filters/${environment}/log4j.properties</filter>-->
+        <!--</filters>-->
         <resources>
             <resource>
+                <directory>${project.basedir}/src/main/java</directory>
+                <targetPath>${project.build.directory}/${project.build.finalName}/WEB-INF/classes</targetPath>
+                <includes>
+                    <include>**/*.xml</include>
+                </includes>
+            </resource>
+            <resource>
                 <directory>${project.basedir}/src/main/resources</directory>
-                <targetPath>${project.build.directory}/${project.build.finalName}/WEB-INF/classes/resources</targetPath>
-                <filtering>true</filtering>
+                <targetPath>${project.build.directory}/${project.build.finalName}/WEB-INF/classes</targetPath>
                 <includes>
                     <include>**/*</include>
                 </includes>
                 <excludes>
                     <exclude>filters/**</exclude>
+                    <exclude>mybatis/**</exclude>
                 </excludes>
             </resource>
             <resource>
                 <directory>${project.basedir}/src/main/resources/filters/${environment}</directory>
-                <targetPath>${project.build.directory}/${project.build.finalName}/WEB-INF/classes/resources</targetPath>
-                <filtering>false</filtering>
+                <targetPath>${project.build.directory}/${project.build.finalName}/WEB-INF/classes</targetPath>
                 <includes>
                     <include>**/*</include>
                 </includes>
@@ -57,15 +65,25 @@
         </profile>
     </profiles>
 
-    <!--********************** 依赖管理***************************** -->
     <dependencies>
+        <!-- region 模块依赖-->
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>common</artifactId>
             <version>${project.version}</version>
         </dependency>
+        <!-- endregion -->
 
-        <!--********************** Spring框架***************************** -->
+        <!-- region 测试框架-->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${version.junit}</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- endregion -->
+
+        <!--region Spring框架-->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-aop</artifactId>
@@ -164,9 +182,63 @@
             <groupId>org.aspectj</groupId>
             <artifactId>aspectjweaver</artifactId>
         </dependency>
+        <!--endregion-->
 
-        <!--********************** ORM框架***************************** -->
-        <!-- MySql JDBC Driver -->
+        <!--region SpringMVC框架-->
+        <!--JSON & XML-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>${fastjson.version}</version>
+        </dependency>
+        <!--Hibernate validator -->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-validator</artifactId>
+            <version>${hibernate.version.validator}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-validator-annotation-processor</artifactId>
+            <version>${hibernate.version.validator}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-validator-cdi</artifactId>
+            <version>${hibernate.version.validator}</version>
+        </dependency>
+        <!--endregion-->
+
+        <!--region ORM框架-->
+        <!-- MyBatis -->
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis-spring</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+        </dependency>
+        <!--&lt;!&ndash; Hibernate &ndash;&gt;-->
+        <!--<dependency>-->
+            <!--<groupId>org.hibernate</groupId>-->
+            <!--<artifactId>hibernate-core</artifactId>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>org.hibernate</groupId>-->
+            <!--<artifactId>hibernate-c3p0</artifactId>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>org.hibernate</groupId>-->
+            <!--<artifactId>hibernate-ehcache</artifactId>-->
+        <!--</dependency>-->
+        <!--endregion-->
+
+        <!--region JDBC-->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
@@ -181,72 +253,42 @@
             <groupId>com.microsoft.sqlserver</groupId>
             <artifactId>sqljdbc4</artifactId>
         </dependency>
-        <!-- MyBatis -->
+        <!--endregion-->
+
+        <!--region Log框架-->
         <dependency>
-            <groupId>org.mybatis</groupId>
-            <artifactId>mybatis</artifactId>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
         </dependency>
-        <!-- Hibernate -->
+        <!-- endregion-->
+
+        <!--region POI框架-->
         <dependency>
-            <groupId>org.hibernate</groupId>
-            <artifactId>hibernate-core</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.hibernate</groupId>
-            <artifactId>hibernate-c3p0</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.hibernate</groupId>
-            <artifactId>hibernate-ehcache</artifactId>
-        </dependency>
-        <!--********************** SpringMVC框架*****************************-->
-        <!--SpringMVC : Jackson JSON & XML-->
-        <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-core</artifactId>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-databind</artifactId>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-annotations</artifactId>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml-schemas</artifactId>
+        </dependency>
+        <!-- endregion -->
+
+        <!--region 其他依赖-->
+        <!-- Servlet -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.fasterxml.jackson.dataformat</groupId>
-            <artifactId>jackson-dataformat-xml</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.fasterxml.jackson.module</groupId>
-            <artifactId>jackson-module-jaxb-annotations</artifactId>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
         </dependency>
 
-        <!--SpringMVC : Hibernate validator -->
-        <dependency>
-            <groupId>org.hibernate</groupId>
-            <artifactId>hibernate-validator</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.hibernate</groupId>
-            <artifactId>hibernate-validator-annotation-processor</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.hibernate</groupId>
-            <artifactId>hibernate-validator-cdi</artifactId>
-        </dependency>
-
-        <!--********************** 日志框架*****************************-->
-
-
-        <!--********************** 测试框架*****************************-->
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-        </dependency>
-
-        <!--********************** 其他依赖***************************** -->
-        <!-- Commons -->
+        <!-- Apache -->
         <dependency>
             <groupId>commons-logging</groupId>
             <artifactId>commons-logging</artifactId>
@@ -255,15 +297,54 @@
             <groupId>commons-fileupload</groupId>
             <artifactId>commons-fileupload</artifactId>
         </dependency>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-pool2</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-dbcp2</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+        </dependency>
 
-        <!-- Servlet -->
+        <!--okhttp-->
         <dependency>
-            <groupId>javax.validation</groupId>
-            <artifactId>validation-api</artifactId>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>okhttp</artifactId>
+        </dependency>
+
+        <!--dom4j-->
+        <dependency>
+            <groupId>dom4j</groupId>
+            <artifactId>dom4j</artifactId>
+        </dependency>
+
+        <!--Dozer-->
+        <dependency>
+            <groupId>net.sf.dozer</groupId>
+            <artifactId>dozer</artifactId>
         </dependency>
         <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>javax.servlet-api</artifactId>
+            <groupId>net.sf.dozer</groupId>
+            <artifactId>dozer-spring</artifactId>
         </dependency>
+
+        <!--Lombok-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+        <!--endregion-->
     </dependencies>
 </project>
