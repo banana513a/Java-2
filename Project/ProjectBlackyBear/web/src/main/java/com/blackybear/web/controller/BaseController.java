@@ -1,7 +1,5 @@
 package com.blackybear.web.controller;
 
-import org.apache.log4j.Logger;
-
 import javax.servlet.http.HttpServletRequest;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
@@ -13,8 +11,6 @@ import java.net.UnknownHostException;
  * Create Date: 2017-12-10
  */
 public class BaseController {
-    protected final static Logger mLogger = Logger.getLogger(BaseController.class);
-
     /**
      * 获取客户端IP地址
      * @param request request

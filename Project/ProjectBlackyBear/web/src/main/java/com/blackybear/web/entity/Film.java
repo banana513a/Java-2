@@ -1,15 +1,11 @@
 package com.blackybear.web.entity;
 
 import lombok.Data;
-import lombok.EqualsAndHashCode;
-import lombok.ToString;
 
 import java.math.BigDecimal;
 import java.util.Date;
 
 @Data
-@ToString
-@EqualsAndHashCode
 public class Film {
     private Short filmId;
 

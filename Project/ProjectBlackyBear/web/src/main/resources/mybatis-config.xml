@@ -10,6 +10,18 @@
         <setting name="mapUnderscoreToCamelCase" value="true" />
         <setting name="defaultStatementTimeout" value="5"/>
         <setting name="defaultExecutorType" value="REUSE" />
-        <setting name="logImpl" value="LOG4J"/>
+        <setting name="logImpl" value="SLF4J"/>
+        <setting name="logPrefix" value="mybatis.log."/>
     </settings>
+    <plugins>
+        <plugin interceptor="com.github.pagehelper.PageInterceptor">
+            <property name="helperDialect" value="mysql"/>
+            <property name="reasonable" value="true"/>
+            <!--启用参数分页方法-->
+            <property name="supportMethodsArguments" value="true"/>
+            <!--默认的参数分页方法规则-->
+            <!--<property name="params" value="pageNum=pageNum;pageSize=pageSize;count=countSql;reasonable=reasonable;pageSizeZero=pageSizeZero"/>-->
+            <!--<property name="autoRuntimeDialect" value="true"/>-->
+        </plugin>
+    </plugins>
 </configuration>

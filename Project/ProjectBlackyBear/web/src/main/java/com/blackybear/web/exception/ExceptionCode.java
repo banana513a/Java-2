@@ -22,7 +22,7 @@ public class ExceptionCode {
     public static final int EXP_NO_DATA = 14;
     public static final String EXP_NO_DATA_MSG = "数据异常，无法获取数据";
 
-    public static final int EXP_SYSTEM_UNKOWN_CODE = 100;
+    public static final int EXP_SYSTEM_UNKOWN = 100;
     public static final String EXP_SYSTEM_UNKOWN_MSG = "系统异常，未知错误！";
     //endregion
 }
