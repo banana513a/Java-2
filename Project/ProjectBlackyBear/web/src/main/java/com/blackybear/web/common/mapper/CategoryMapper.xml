@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.blackybear.web.common.mapper.CategoryMapper">
+    <resultMap id="BaseResultMap" type="Category">
+        <id column="category_id" jdbcType="TINYINT" property="categoryId"/>
+        <result column="name" jdbcType="VARCHAR" property="name"/>
+        <result column="last_update" jdbcType="TIMESTAMP" property="lastUpdate"/>
+    </resultMap>
+
+    <select id="selectByPrimaryKey" parameterType="byte" resultMap="BaseResultMap">
+        select category_id, name, last_update
+        from category
+        where category_id = #{categoryId,jdbcType=TINYINT}
+    </select>
+    <delete id="deleteByPrimaryKey" parameterType="byte">
+        delete from category where category_id = #{categoryId,jdbcType=TINYINT}
+    </delete>
+
+    <insert id="insert" parameterType="Category" keyProperty="categoryId">
+        insert into category (category_id, name, last_update)
+        values (#{categoryId,jdbcType=TINYINT}, #{name,jdbcType=VARCHAR}, #{lastUpdate,jdbcType=TIMESTAMP})
+    </insert>
+    <insert id="insertSelective" parameterType="Category" keyProperty="categoryId">
+        insert into category
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="name != null">
+                name,
+            </if>
+            <if test="lastUpdate != null">
+                last_update,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="name != null">
+                #{name,jdbcType=VARCHAR},
+            </if>
+            <if test="lastUpdate != null">
+                #{lastUpdate,jdbcType=TIMESTAMP},
+            </if>
+        </trim>
+    </insert>
+    <update id="updateByPrimaryKeySelective" parameterType="Category">
+        update category
+        <set>
+            <if test="name != null">
+                name = #{name,jdbcType=VARCHAR},
+            </if>
+            <if test="lastUpdate != null">
+                last_update = #{lastUpdate,jdbcType=TIMESTAMP},
+            </if>
+        </set>
+        where category_id = #{categoryId,jdbcType=TINYINT}
+    </update>
+    <update id="updateByPrimaryKey" parameterType="Category">
+        update category
+        set name = #{name,jdbcType=VARCHAR},
+          last_update = #{lastUpdate,jdbcType=TIMESTAMP}
+        where category_id = #{categoryId,jdbcType=TINYINT}
+  </update>
+</mapper>

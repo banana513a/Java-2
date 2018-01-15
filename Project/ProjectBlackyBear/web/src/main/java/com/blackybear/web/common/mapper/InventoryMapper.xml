@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.blackybear.web.common.mapper.InventoryMapper">
+    <resultMap id="BaseResultMap" type="Inventory">
+        <id column="inventory_id" jdbcType="INTEGER" property="inventoryId"/>
+        <result column="film_id" jdbcType="SMALLINT" property="filmId"/>
+        <result column="store_id" jdbcType="TINYINT" property="storeId"/>
+        <result column="last_update" jdbcType="TIMESTAMP" property="lastUpdate"/>
+    </resultMap>
+
+    <select id="selectByPrimaryKey" parameterType="int" resultMap="BaseResultMap">
+        select inventory_id, film_id, store_id, last_update
+        from inventory
+        where inventory_id = #{inventoryId,jdbcType=INTEGER}
+    </select>
+    <delete id="deleteByPrimaryKey" parameterType="int">
+        delete from inventory where inventory_id = #{inventoryId,jdbcType=INTEGER}
+    </delete>
+    <insert id="insert" parameterType="Inventory" keyProperty="inventoryId">
+        insert into inventory (film_id, store_id, last_update)
+        values (#{filmId,jdbcType=SMALLINT},
+                #{storeId,jdbcType=TINYINT},
+                #{lastUpdate,jdbcType=TIMESTAMP})
+    </insert>
+    <insert id="insertSelective" parameterType="Inventory" keyProperty="inventoryId">
+        insert into inventory
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="filmId != null">
+                film_id,
+            </if>
+            <if test="storeId != null">
+                store_id,
+            </if>
+            <if test="lastUpdate != null">
+                last_update,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="filmId != null">
+                #{filmId,jdbcType=SMALLINT},
+            </if>
+            <if test="storeId != null">
+                #{storeId,jdbcType=TINYINT},
+            </if>
+            <if test="lastUpdate != null">
+                #{lastUpdate,jdbcType=TIMESTAMP},
+            </if>
+        </trim>
+    </insert>
+    <update id="updateByPrimaryKeySelective" parameterType="Inventory">
+        update inventory
+        <set>
+            <if test="filmId != null">
+                film_id = #{filmId,jdbcType=SMALLINT},
+            </if>
+            <if test="storeId != null">
+                store_id = #{storeId,jdbcType=TINYINT},
+            </if>
+            <if test="lastUpdate != null">
+                last_update = #{lastUpdate,jdbcType=TIMESTAMP},
+            </if>
+        </set>
+        where inventory_id = #{inventoryId,jdbcType=INTEGER}
+    </update>
+    <update id="updateByPrimaryKey" parameterType="Inventory">
+        update inventory
+        set film_id = #{filmId,jdbcType=SMALLINT},
+          store_id = #{storeId,jdbcType=TINYINT},
+          last_update = #{lastUpdate,jdbcType=TIMESTAMP}
+        where inventory_id = #{inventoryId,jdbcType=INTEGER}
+  </update>
+</mapper>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.blackybear.web.common.mapper.StoreMapper">
+    <resultMap id="BaseResultMap" type="Store">
+        <id column="store_id" jdbcType="TINYINT" property="storeId"/>
+        <result column="manager_staff_id" jdbcType="TINYINT" property="managerStaffId"/>
+        <result column="address_id" jdbcType="SMALLINT" property="addressId"/>
+        <result column="last_update" jdbcType="TIMESTAMP" property="lastUpdate"/>
+    </resultMap>
+
+    <select id="selectByPrimaryKey" parameterType="byte" resultMap="BaseResultMap">
+        select store_id, manager_staff_id, address_id, last_update
+        from store
+        where store_id = #{storeId,jdbcType=TINYINT}
+    </select>
+    <delete id="deleteByPrimaryKey" parameterType="byte">
+        delete from store where store_id = #{storeId,jdbcType=TINYINT}
+    </delete>
+    <insert id="insert" parameterType="Store" keyProperty="storeId">
+        insert into store (manager_staff_id, address_id, last_update)
+        values (#{managerStaffId,jdbcType=TINYINT},
+                #{addressId,jdbcType=SMALLINT},
+                #{lastUpdate,jdbcType=TIMESTAMP})
+    </insert>
+    <insert id="insertSelective" parameterType="Store" keyProperty="storeId">
+        insert into store
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="managerStaffId != null">
+                manager_staff_id,
+            </if>
+            <if test="addressId != null">
+                address_id,
+            </if>
+            <if test="lastUpdate != null">
+                last_update,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="managerStaffId != null">
+                #{managerStaffId,jdbcType=TINYINT},
+            </if>
+            <if test="addressId != null">
+                #{addressId,jdbcType=SMALLINT},
+            </if>
+            <if test="lastUpdate != null">
+                #{lastUpdate,jdbcType=TIMESTAMP},
+            </if>
+        </trim>
+    </insert>
+    <update id="updateByPrimaryKeySelective" parameterType="Store">
+        update store
+        <set>
+            <if test="managerStaffId != null">
+                manager_staff_id = #{managerStaffId,jdbcType=TINYINT},
+            </if>
+            <if test="addressId != null">
+                address_id = #{addressId,jdbcType=SMALLINT},
+            </if>
+            <if test="lastUpdate != null">
+                last_update = #{lastUpdate,jdbcType=TIMESTAMP},
+            </if>
+        </set>
+        where store_id = #{storeId,jdbcType=TINYINT}
+    </update>
+    <update id="updateByPrimaryKey" parameterType="Store">
+        update store
+        set manager_staff_id = #{managerStaffId,jdbcType=TINYINT},
+          address_id = #{addressId,jdbcType=SMALLINT},
+          last_update = #{lastUpdate,jdbcType=TIMESTAMP}
+        where store_id = #{storeId,jdbcType=TINYINT}
+  </update>
+</mapper>

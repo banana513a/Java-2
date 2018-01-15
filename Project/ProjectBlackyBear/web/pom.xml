@@ -12,12 +12,7 @@
 
     <build>
         <finalName>web-${parent.version}</finalName>
-        <!--<filters>-->
-            <!--<filter>src/main/resources/filters/${environment}/c3p0.properties</filter>-->
-            <!--<filter>src/main/resources/filters/${environment}/config.properties</filter>-->
-            <!--<filter>src/main/resources/filters/${environment}/db.properties</filter>-->
-            <!--<filter>src/main/resources/filters/${environment}/log4j.properties</filter>-->
-        <!--</filters>-->
+
         <resources>
             <resource>
                 <directory>${project.basedir}/src/main/java</directory>
@@ -27,18 +22,7 @@
                 </includes>
             </resource>
             <resource>
-                <directory>${project.basedir}/src/main/resources</directory>
-                <targetPath>${project.build.directory}/${project.build.finalName}/WEB-INF/classes</targetPath>
-                <includes>
-                    <include>**/*</include>
-                </includes>
-                <excludes>
-                    <exclude>filters/**</exclude>
-                    <exclude>mybatis/**</exclude>
-                </excludes>
-            </resource>
-            <resource>
-                <directory>${project.basedir}/src/main/resources/filters/${environment}</directory>
+                <directory>${project.basedir}/src/main/resources.${environment}</directory>
                 <targetPath>${project.build.directory}/${project.build.finalName}/WEB-INF/classes</targetPath>
                 <includes>
                     <include>**/*</include>

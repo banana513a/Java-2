@@ -1,18 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>门户页</title>
+    <title>Test门户页</title>
     <meta name="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
-
+    <link rel="stylesheet" href="third/layui/css/layui.css">
     <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="third/layui/layui.js"></script>
     <script type="text/javascript" src="js/common.js"></script>
 </head>
-<body>
-    <h1>门户页</h1>
-    <button id="btn_test">Test</button>
+<body class="layui-layout-body">
+    <div class="layui-layout layui-layout-admin">
+        <div class="layui-header">
+            <div class="layui-logo">管理后台</div>
+            <!-- 头部区域（可配合layui已有的水平导航） -->
+            <ul class="layui-nav layui-layout-left">
+                <li class="layui-nav-item"><a href="">控制台<span class="layui-badge">9</span></a></li>
+                <li class="layui-nav-item"><a href="">商品管理</a></li>
+                <li class="layui-nav-item"><a href="">用户</a></li>
+                <li class="layui-nav-item">
+                    <a href="javascript:;">其它系统</a>
+                    <dl class="layui-nav-child">
+                        <dd><a href="">邮件管理</a></dd>
+                        <dd><a href="">消息管理</a></dd>
+                        <dd><a href="">授权管理</a></dd>
+                    </dl>
+                </li>
+            </ul>
+            <ul class="layui-nav layui-layout-right">
+                <li class="layui-nav-item">
+                    <a href="javascript:;">
+                        <img src="http://t.cn/RCzsdCq" class="layui-nav-img">
+                        当前用户
+                    </a>
+                    <dl class="layui-nav-child">
+                        <dd><a href="">基本资料</a></dd>
+                        <dd><a href="">安全设置</a></dd>
+                    </dl>
+                </li>
+                <li class="layui-nav-item"><a href="">退出</a></li>
+            </ul>
+        </div>
+
+        <div class="layui-side layui-bg-black">
+            <div class="layui-side-scroll">
+                <!-- 左侧导航区域（可配合layui已有的垂直导航） -->
+                <ul class="layui-nav layui-nav-tree"  lay-filter="test">
+                    <li class="layui-nav-item layui-nav-itemed">
+                        <a class="" href="javascript:;">所有商品</a>
+                        <dl class="layui-nav-child">
+                            <dd><a href="javascript:;">列表一</a></dd>
+                            <dd><a href="javascript:;">列表二</a></dd>
+                            <dd><a href="javascript:;">列表三</a></dd>
+                            <dd><a href="">超链接</a></dd>
+                        </dl>
+                    </li>
+                    <li class="layui-nav-item">
+                        <a href="javascript:;">解决方案</a>
+                        <dl class="layui-nav-child">
+                            <dd><a href="javascript:;">列表一</a></dd>
+                            <dd><a href="javascript:;">列表二</a></dd>
+                            <dd><a href="">超链接</a></dd>
+                        </dl>
+                    </li>
+                    <li class="layui-nav-item"><a href="">云市场</a></li>
+                    <li class="layui-nav-item"><a href="">发布商品</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="layui-body">
+            <!-- 内容主体区域 -->
+
+            <div class="layui-tab" lay-allowClose="true">
+                <ul class="layui-tab-title">
+                    <li class="layui-this">网站设置</li>
+                    <li>用户管理</li>
+                    <li>权限分配</li>
+                    <li>商品管理</li>
+                    <li>订单管理</li>
+                </ul>
+                <div class="layui-tab-content">
+                    <div class="layui-tab-item layui-show">
+                        <table class="layui-hide" id="table"></table>
+                    </div>
+                    <div class="layui-tab-item">
+                        <div class="layui-btn-group">
+                            <button id="btn_test" class="layui-btn">Test</button>
+                            <button class="layui-btn">增加</button>
+                            <button class="layui-btn">编辑</button>
+                            <button class="layui-btn">删除</button>
+                        </div>
+                    </div>
+                    <div class="layui-tab-item">内容3</div>
+                    <div class="layui-tab-item">内容4</div>
+                    <div class="layui-tab-item">内容5</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="layui-footer">
+            <!-- 底部固定区域 -->
+            © layui.com - 底部固定区域
+        </div>
+    </div>
 </body>
+
 <script type="text/javascript">
+    layui.use(['layer', 'form', 'element','table'], function(){
+        var layer = layui.layer,
+            form = layui.form,
+            element = layui.element,
+            table = layui.table;
+        table.render({
+            elem: '#table'
+            ,cols: [[ //标题栏
+                {field: 'id', title: 'ID', width: 80, sort: true}
+                ,{field: 'username', title: '用户名', width: 120}
+                ,{field: 'email', title: '邮箱', minWidth: 150}
+                ,{field: 'sign', title: '签名', minWidth: 160}
+                ,{field: 'sex', title: '性别', width: 80}
+                ,{field: 'city', title: '城市', width: 100}
+                ,{field: 'experience', title: '积分', width: 80, sort: true}
+            ]]
+            ,data: [{
+                "id": "10001"
+                ,"username": "杜甫"
+                ,"email": "xianxin@layui.com"
+                ,"sex": "男"
+                ,"city": "浙江杭州"
+                ,"sign": "人生恰似一场修行"
+                ,"experience": "116"
+                ,"ip": "192.168.0.8"
+                ,"logins": "108"
+                ,"joinTime": "2016-10-14"
+            }, {
+                "id": "10002"
+                ,"username": "李白"
+                ,"email": "xianxin@layui.com"
+                ,"sex": "男"
+                ,"city": "浙江杭州"
+                ,"sign": "人生恰似一场修行"
+                ,"experience": "12"
+                ,"ip": "192.168.0.8"
+                ,"logins": "106"
+                ,"joinTime": "2016-10-14"
+                ,"LAY_CHECKED": true
+            }, {
+                "id": "10003"
+                ,"username": "王勃"
+                ,"email": "xianxin@layui.com"
+                ,"sex": "男"
+                ,"city": "浙江杭州"
+                ,"sign": "人生恰似一场修行"
+                ,"experience": "65"
+                ,"ip": "192.168.0.8"
+                ,"logins": "106"
+                ,"joinTime": "2016-10-14"
+            }, {
+                "id": "10004"
+                ,"username": "贤心"
+                ,"email": "xianxin@layui.com"
+                ,"sex": "男"
+                ,"city": "浙江杭州"
+                ,"sign": "人生恰似一场修行"
+                ,"experience": "666"
+                ,"ip": "192.168.0.8"
+                ,"logins": "106"
+                ,"joinTime": "2016-10-14"
+            }, {
+                "id": "10005"
+                ,"username": "贤心"
+                ,"email": "xianxin@layui.com"
+                ,"sex": "男"
+                ,"city": "浙江杭州"
+                ,"sign": "人生恰似一场修行"
+                ,"experience": "86"
+                ,"ip": "192.168.0.8"
+                ,"logins": "106"
+                ,"joinTime": "2016-10-14"
+            }, {
+                "id": "10006"
+                ,"username": "贤心"
+                ,"email": "xianxin@layui.com"
+                ,"sex": "男"
+                ,"city": "浙江杭州"
+                ,"sign": "人生恰似一场修行"
+                ,"experience": "12"
+                ,"ip": "192.168.0.8"
+                ,"logins": "106"
+                ,"joinTime": "2016-10-14"
+            }, {
+                "id": "10007"
+                ,"username": "贤心"
+                ,"email": "xianxin@layui.com"
+                ,"sex": "男"
+                ,"city": "浙江杭州"
+                ,"sign": "人生恰似一场修行"
+                ,"experience": "16"
+                ,"ip": "192.168.0.8"
+                ,"logins": "106"
+                ,"joinTime": "2016-10-14"
+            }, {
+                "id": "10008"
+                ,"username": "贤心"
+                ,"email": "xianxin@layui.com"
+                ,"sex": "男"
+                ,"city": "浙江杭州"
+                ,"sign": "人生恰似一场修行"
+                ,"experience": "106"
+                ,"ip": "192.168.0.8"
+                ,"logins": "106"
+                ,"joinTime": "2016-10-14"
+            }]
+            //,skin: 'line' //表格风格
+            ,even: true
+            //,page: true //是否显示分页
+            //,limits: [5, 7, 10]
+            //,limit: 5 //每页默认显示的数量
+        });
+    });
+
+
     $(function () {
         initPage();
     });
@@ -22,7 +231,7 @@
     }
 
     function testAjax() {
-        var url = window.location.origin + contextPath + '/test';
+        var url = window.location.origin + contextPath + '/test/crud?crud=3';
         $.ajax({
             url : url,
             type : 'get',
