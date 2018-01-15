@@ -42,9 +42,15 @@
             </activation>
         </profile>
         <profile>
-            <id>release</id>
+            <id>test</id>
             <properties>
-                <environment>release</environment>
+                <environment>test</environment>
+            </properties>
+        </profile>
+        <profile>
+            <id>product</id>
+            <properties>
+                <environment>product</environment>
             </properties>
         </profile>
     </profiles>

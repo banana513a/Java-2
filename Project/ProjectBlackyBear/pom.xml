@@ -43,7 +43,10 @@
             <id>develop</id>
         </profile>
         <profile>
-            <id>release</id>
+            <id>test</id>
+        </profile>
+        <profile>
+            <id>product</id>
         </profile>
     </profiles>
 
