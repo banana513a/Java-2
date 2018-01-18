@@ -1,38 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xmlns:context="http://www.springframework.org/schema/context"
        xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
        xmlns:tx="http://www.springframework.org/schema/tx"
        xmlns:task="http://www.springframework.org/schema/task"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
     	http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
-    	http://www.springframework.org/schema/context
-    	http://www.springframework.org/schema/context/spring-context-4.3.xsd
     	http://www.springframework.org/schema/aop
     	http://www.springframework.org/schema/aop/spring-aop-4.3.xsd
+    	http://www.springframework.org/schema/context
+    	http://www.springframework.org/schema/context/spring-context-4.3.xsd
     	http://www.springframework.org/schema/tx
     	http://www.springframework.org/schema/tx/spring-tx-4.3.xsd
     	http://www.springframework.org/schema/task
     	http://www.springframework.org/schema/task/spring-task-4.3.xsd">
 
-    <!-- *************************** 加载资源 && 配置文件 *************************** -->
-    <context:property-placeholder location="
-                        classpath:**/config.properties,
-                        classpath:**/db.properties,
-                        classpath:**/druid.properties,
-                        classpath:**/redis.properties"/>
 
-    <!-- *************************** 加载 Service && Advice ************************** -->
+    <!-- *************************** 加载组件 ************************** -->
     <context:component-scan base-package="com.blackybear.web">
-        <context:include-filter type="annotation" expression="org.springframework.stereotype.Service"/>
-        <context:include-filter type="annotation" expression="org.springframework.stereotype.Component"/>
+        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
     </context:component-scan>
-
 
     <!-- *************************** AOP 配置  ***************************-->
     <aop:aspectj-autoproxy proxy-target-class="true" />
 
+    <!-- *************************** 加载资源 && 配置文件 *************************** -->
+    <context:property-placeholder location="classpath:config.properties,
+                        classpath:db.properties,
+                        classpath:druid.properties,
+                        classpath:redis.properties"/>
 
     <!-- *************************** Database 配置  *************************** -->
     <!-- LobHandler配置 -->
@@ -195,6 +192,7 @@
     </bean>
 
     <!--spring-data-redis 封装-->
+
     <!--<bean id="jedisConnectionFactory" class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory" destroy-method="destroy">-->
         <!--<property name="poolConfig" ref="jedisPoolConfig" />-->
         <!--<property name="hostName" value="${redis.host}" />-->

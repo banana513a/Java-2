@@ -10,17 +10,9 @@
     	http://www.springframework.org/schema/mvc
     	http://www.springframework.org/schema/mvc/spring-mvc-4.3.xsd">
 
-    <!--*************************** 静态资源映射配置  ***************************-->
-    <!--静态资源映射, 访问的静态资源不包括在配置中时，使用default-servlet-handler配置来访问-->
-    <mvc:resources mapping="/image/**" location="/image/" />
-    <mvc:resources mapping="/fonts/**" location="/fonts/" />
-    <mvc:resources mapping="/css/**" location="/css/" />
-    <mvc:resources mapping="/js/**" location="/js/" />
-    <mvc:resources mapping="/third/**" location="/third/" />
-    <mvc:default-servlet-handler/>
-
     <!-- *************************** 加载Controller *************************** -->
-    <context:component-scan base-package="com.blackybear.web">
+    <!--必须要加use-default-filters=false，否则即使有include-filter也不会只扫描Controller-->
+    <context:component-scan base-package="com.blackybear.web" use-default-filters="false">
         <context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
     </context:component-scan>
 
@@ -32,6 +24,9 @@
         </mvc:interceptor>
     </mvc:interceptors>
 
+    <!--*************************** 静态资源映射配置  ***************************-->
+    <!--静态资源映射, 使用default-servlet-handler配置来访问静态资源-->
+    <mvc:default-servlet-handler/>
     <!-- *************************** 数据转换器，验证器，内容协商管理器配置  *************************** -->
     <mvc:annotation-driven
             conversion-service="conversionservice"
@@ -44,6 +39,7 @@
                 <property name="supportedMediaTypes">
                     <list>
                         <value>application/json</value>
+                        <value>text/html</value>
                     </list>
                 </property>
             </bean>
@@ -63,6 +59,7 @@
         <property name="providerClass" value="org.hibernate.validator.HibernateValidator" />
         <property name="validationMessageSource" ref="messageSource" />
     </bean>
+
     <!-- 数据验证提示信息国际化配置 -->
     <bean id="messageSource" class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
         <property name="defaultEncoding" value="UTF-8" />
