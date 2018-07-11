@@ -99,7 +99,7 @@ class EagerSingleton{
  * 单例类：懒汉实现
  */
 class LazySingleton{
-    private static LazySingleton instance;
+    private volatile static LazySingleton instance;
     private LazySingleton(){}
     public static LazySingleton getInstance(){
         if (instance == null){
@@ -119,7 +119,7 @@ class LazySingleton{
 class IoDHSingleton {
     private IoDHSingleton() {}
     private static class IoDHSingletonHolder {
-        public final static IoDHSingleton INSTANCE = new IoDHSingleton();
+        public static IoDHSingleton INSTANCE = new IoDHSingleton();
     }
 
     public static IoDHSingleton getInstance(){
